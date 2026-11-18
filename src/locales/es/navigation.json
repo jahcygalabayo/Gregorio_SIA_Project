@@ -1,0 +1,40 @@
+{
+  "sidebar": {
+    "menu": "Menú",
+    "orders": "Pedidos",
+    "summary": "Resumen",
+    "kitchen": "Cocina",
+    "orderDisplay": "Pantalla de pedidos",
+    "delivery": "Delivery",
+    "closing": "Cierre",
+    "inventory": "Inventario",
+    "manage": "Gestionar",
+    "reports": "Informes",
+    "tipDist": "Dist. propinas",
+    "accounts": "Cuentas",
+    "settings": "Ajustes",
+    "clock": "Reloj",
+    "hr": "RR. HH.",
+    "integrations": "Integraciones",
+    "requiresApproval": "Requiere aprobación del gerente"
+  },
+  "modules": {
+    "Menu": "Menú",
+    "Orders": "Pedidos",
+    "Summary": "Resumen",
+    "Reports": "Informes",
+    "Closing": "Cierre",
+    "Kitchen": "Cocina",
+    "Order Display": "Pantalla de pedidos",
+    "Delivery": "Delivery",
+    "Admin": "Administración",
+    "Riders": "Repartidores",
+    "Tips": "Distribución de propinas",
+    "Inventory": "Inventario",
+    "Accounts": "Cuentas",
+    "Settings": "Ajustes",
+    "HR": "Recursos humanos",
+    "Integrations": "Integraciones"
+  },
+  "authenticateToAccess": "Autentíquese para acceder a {{module}}"
+}

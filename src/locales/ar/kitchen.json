@@ -1,0 +1,34 @@
+{
+  "actions": {
+    "completeAllOpen": "إكمال جميع الطلبات المفتوحة",
+    "completedOrders": "الطلبات المكتملة",
+    "viewAllDishes": "عرض جميع الأطباق",
+    "recall": "استرجاع",
+    "ready": "جاهز",
+    "reprint": "إعادة طباعة"
+  },
+  "labels": {
+    "avgTime": "متوسط الوقت: {{time}}",
+    "avgTimeMins": "{{count}} دقيقة",
+    "addon": "إضافة",
+    "original": "أصلي",
+    "completed": "مكتمل: {{time}}",
+    "items": "الأصناف: {{count}}",
+    "continued": "متابعة"
+  },
+  "announcements": {
+    "newOrder": "طلب جديد. {{context}}. {{number}}.",
+    "addon": "إضافة. {{context}}. {{number}}.",
+    "itemAdded": "تمت إضافة صنف. {{item}}. {{context}}. {{number}}.",
+    "itemRemoved": "تم إلغاء صنف. {{item}}. {{context}}. {{number}}.",
+    "itemFallback": "صنف"
+  },
+  "modal": {
+    "completedOrdersTitle": "طلبات {{kitchen}} المكتملة (اليوم)",
+    "noCompletedOrders": "لم يُعثر على طلبات مكتملة لليوم."
+  },
+  "confirm": {
+    "title": "تأكيد",
+    "completeAll": "إكمال جميع الطلبات المفتوحة في هذا المطبخ؟"
+  }
+}

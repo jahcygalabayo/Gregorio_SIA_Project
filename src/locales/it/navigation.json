@@ -1,0 +1,40 @@
+{
+  "sidebar": {
+    "menu": "Menu",
+    "orders": "Ordini",
+    "summary": "Riepilogo",
+    "kitchen": "Cucina",
+    "orderDisplay": "Display ordini",
+    "delivery": "Consegna",
+    "closing": "Chiusura",
+    "inventory": "Inventario",
+    "manage": "Gestione",
+    "reports": "Report",
+    "tipDist": "Dist. mance",
+    "accounts": "Contabilità",
+    "settings": "Impostazioni",
+    "clock": "Orologio",
+    "hr": "Risorse umane",
+    "integrations": "Integrazioni",
+    "requiresApproval": "Richiede l'approvazione del responsabile"
+  },
+  "modules": {
+    "Menu": "Menu",
+    "Orders": "Ordini",
+    "Summary": "Riepilogo",
+    "Reports": "Report",
+    "Closing": "Chiusura",
+    "Kitchen": "Cucina",
+    "Order Display": "Display ordini",
+    "Delivery": "Consegna",
+    "Admin": "Amministrazione",
+    "Riders": "Rider",
+    "Tips": "Distribuzione mance",
+    "Inventory": "Inventario",
+    "Accounts": "Contabilità",
+    "Settings": "Impostazioni",
+    "HR": "Risorse umane",
+    "Integrations": "Integrazioni"
+  },
+  "authenticateToAccess": "Autenticati per accedere a {{module}}"
+}

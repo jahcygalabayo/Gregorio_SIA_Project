@@ -1,0 +1,34 @@
+{
+  "actions": {
+    "completeAllOpen": "Terminer toutes les commandes en cours",
+    "completedOrders": "Commandes terminées",
+    "viewAllDishes": "Voir tous les plats",
+    "recall": "Rappeler",
+    "ready": "Prêt",
+    "reprint": "Réimprimer"
+  },
+  "labels": {
+    "avgTime": "Temps moy. : {{time}}",
+    "avgTimeMins": "{{count}} min",
+    "addon": "SUPPLÉMENT",
+    "original": "ORIGINAL",
+    "completed": "Terminé : {{time}}",
+    "items": "Articles : {{count}}",
+    "continued": "SUITE"
+  },
+  "announcements": {
+    "newOrder": "Nouvelle commande. {{context}}. {{number}}.",
+    "addon": "Supplément. {{context}}. {{number}}.",
+    "itemAdded": "Article ajouté. {{item}}. {{context}}. {{number}}.",
+    "itemRemoved": "Article annulé. {{item}}. {{context}}. {{number}}.",
+    "itemFallback": "Article"
+  },
+  "modal": {
+    "completedOrdersTitle": "{{kitchen}} — Commandes terminées (aujourd'hui)",
+    "noCompletedOrders": "Aucune commande terminée trouvée pour aujourd'hui."
+  },
+  "confirm": {
+    "title": "Confirmer",
+    "completeAll": "Terminer toutes les commandes en cours dans cette cuisine ?"
+  }
+}

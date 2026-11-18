@@ -1,0 +1,34 @@
+{
+  "actions": {
+    "completeAllOpen": "Completa tutti gli ordini aperti",
+    "completedOrders": "Ordini completati",
+    "viewAllDishes": "Visualizza tutti i piatti",
+    "recall": "Richiama",
+    "ready": "Pronto",
+    "reprint": "Ristampa"
+  },
+  "labels": {
+    "avgTime": "Tempo medio: {{time}}",
+    "avgTimeMins": "{{count}} min",
+    "addon": "EXTRA",
+    "original": "ORIGINALE",
+    "completed": "Completato: {{time}}",
+    "items": "Articoli: {{count}}",
+    "continued": "CONTINUA"
+  },
+  "announcements": {
+    "newOrder": "Nuovo ordine. {{context}}. {{number}}.",
+    "addon": "Extra. {{context}}. {{number}}.",
+    "itemAdded": "Articolo aggiunto. {{item}}. {{context}}. {{number}}.",
+    "itemRemoved": "Articolo annullato. {{item}}. {{context}}. {{number}}.",
+    "itemFallback": "Articolo"
+  },
+  "modal": {
+    "completedOrdersTitle": "{{kitchen}} — Ordini completati (oggi)",
+    "noCompletedOrders": "Nessun ordine completato trovato per oggi."
+  },
+  "confirm": {
+    "title": "Conferma",
+    "completeAll": "Completare tutti gli ordini aperti in questa cucina?"
+  }
+}

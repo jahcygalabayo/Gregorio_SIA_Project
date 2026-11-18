@@ -1,0 +1,34 @@
+{
+  "actions": {
+    "completeAllOpen": "Tüm açık siparişleri tamamla",
+    "completedOrders": "Tamamlanan Siparişler",
+    "viewAllDishes": "Tüm yemekleri görüntüle",
+    "recall": "Geri çağır",
+    "ready": "Hazır",
+    "reprint": "Yeniden yazdır"
+  },
+  "labels": {
+    "avgTime": "Ort. süre: {{time}}",
+    "avgTimeMins": "{{count}} dk",
+    "addon": "EK",
+    "original": "ASIL",
+    "completed": "Tamamlandı: {{time}}",
+    "items": "Ürünler: {{count}}",
+    "continued": "DEVAMI"
+  },
+  "announcements": {
+    "newOrder": "Yeni sipariş. {{context}}. {{number}}.",
+    "addon": "Ek. {{context}}. {{number}}.",
+    "itemAdded": "Ürün eklendi. {{item}}. {{context}}. {{number}}.",
+    "itemRemoved": "Ürün iptal. {{item}}. {{context}}. {{number}}.",
+    "itemFallback": "Ürün"
+  },
+  "modal": {
+    "completedOrdersTitle": "{{kitchen}} Tamamlanan Siparişler (Bugün)",
+    "noCompletedOrders": "Bugün için tamamlanan sipariş bulunamadı."
+  },
+  "confirm": {
+    "title": "Onayla",
+    "completeAll": "Bu mutfaktaki tüm açık siparişler tamamlansın mı?"
+  }
+}

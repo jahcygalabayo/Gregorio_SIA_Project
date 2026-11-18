@@ -1,0 +1,40 @@
+{
+  "sidebar": {
+    "menu": "Меню",
+    "orders": "Заказы",
+    "summary": "Сводка",
+    "kitchen": "Кухня",
+    "orderDisplay": "Экран заказов",
+    "delivery": "Доставка",
+    "closing": "Закрытие",
+    "inventory": "Склад",
+    "manage": "Управление",
+    "reports": "Отчёты",
+    "tipDist": "Чаевые",
+    "accounts": "Бухгалтерия",
+    "settings": "Настройки",
+    "clock": "Часы",
+    "hr": "HR",
+    "integrations": "Интеграции",
+    "requiresApproval": "Требуется одобрение руководителя"
+  },
+  "modules": {
+    "Menu": "Меню",
+    "Orders": "Заказы",
+    "Summary": "Сводка",
+    "Reports": "Отчёты",
+    "Closing": "Закрытие",
+    "Kitchen": "Кухня",
+    "Order Display": "Экран заказов",
+    "Delivery": "Доставка",
+    "Admin": "Администрирование",
+    "Riders": "Курьеры",
+    "Tips": "Распределение чаевых",
+    "Inventory": "Склад",
+    "Accounts": "Бухгалтерия",
+    "Settings": "Настройки",
+    "HR": "Кадры",
+    "Integrations": "Интеграции"
+  },
+  "authenticateToAccess": "Пройдите аутентификацию для доступа к {{module}}"
+}

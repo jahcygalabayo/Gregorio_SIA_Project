@@ -1,0 +1,40 @@
+{
+  "sidebar": {
+    "menu": "Menu",
+    "orders": "Commandes",
+    "summary": "Résumé",
+    "kitchen": "Cuisine",
+    "orderDisplay": "Affichage commandes",
+    "delivery": "Livraison",
+    "closing": "Clôture",
+    "inventory": "Inventaire",
+    "manage": "Gérer",
+    "reports": "Rapports",
+    "tipDist": "Répart. pourb.",
+    "accounts": "Comptabilité",
+    "settings": "Paramètres",
+    "clock": "Pointage",
+    "hr": "RH",
+    "integrations": "Intégrations",
+    "requiresApproval": "Nécessite l'approbation du responsable"
+  },
+  "modules": {
+    "Menu": "Menu",
+    "Orders": "Commandes",
+    "Summary": "Résumé",
+    "Reports": "Rapports",
+    "Closing": "Clôture",
+    "Kitchen": "Cuisine",
+    "Order Display": "Affichage des commandes",
+    "Delivery": "Livraison",
+    "Admin": "Administration",
+    "Riders": "Livreurs",
+    "Tips": "Répartition des pourboires",
+    "Inventory": "Inventaire",
+    "Accounts": "Comptabilité",
+    "Settings": "Paramètres",
+    "HR": "Ressources humaines",
+    "Integrations": "Intégrations"
+  },
+  "authenticateToAccess": "Authentifiez-vous pour accéder à {{module}}"
+}

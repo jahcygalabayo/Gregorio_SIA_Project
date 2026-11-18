@@ -1,0 +1,345 @@
+{
+  "language": {
+    "title": "Taal",
+    "description": "Kies de weergavetaal voor dit apparaat. Geldt alleen voor dit apparaat.",
+    "changed": "Taal bijgewerkt"
+  },
+  "direction": {
+    "title": "Tekstrichting",
+    "description": "Kies links-naar-rechts of rechts-naar-links lay-out voor dit apparaat.",
+    "ltr": "LTR",
+    "rtl": "RTL"
+  },
+  "theme": {
+    "title": "Weergave",
+    "description": "Kies licht, donker of volg de systeeminstelling van dit apparaat. Geldt alleen voor dit apparaat.",
+    "light": "Licht",
+    "dark": "Donker",
+    "system": "Systeem",
+    "brandTitle": "Merkkleuren",
+    "brandDescription": "Kies een kleurenpakket voor dit apparaat. Shell, knoppen, selects en grafieken worden meteen bijgewerkt.",
+    "brand": {
+      "classic": "Klassiek",
+      "ocean": "Oceaan",
+      "forest": "Bos",
+      "cream": "Crème",
+      "ruby": "Robijn",
+      "sapphire": "Saffier",
+      "custom": "Aangepast"
+    },
+    "customDescription": "Kies een primaire kleur. Oppervlakken, randen en accenten worden eruit afgeleid voor licht en donker.",
+    "customPrimary": "Primaire kleur",
+    "customHex": "Hex",
+    "customApply": "Toepassen",
+    "customPreview": "Voorbeeld",
+    "colorCanvas": "Achtergrond",
+    "colorSurface": "Oppervlak",
+    "colorForeground": "Tekst",
+    "colorPrimary": "Primair",
+    "colorBorder": "Rand"
+  },
+  "branding": {
+    "title": "Branding",
+    "description": "Upload het logo van uw restaurant om het op het inlogscherm onder het POSR-merk te tonen.",
+    "logo": "Merklogo",
+    "logoHint": "PNG, JPEG, GIF of WebP. Max. 500 KB.",
+    "upload": "Logo uploaden",
+    "remove": "Logo verwijderen",
+    "preview": "Logovoorbeeld",
+    "updated": "Brandinginstellingen bijgewerkt",
+    "saveDescription": "Brandinginstellingen opslaan",
+    "tooLarge": "Het bestand overschrijdt de maximale grootte van {{size}}.",
+    "invalidType": "Gebruik een PNG-, JPEG-, GIF- of WebP-afbeelding.",
+    "readFailed": "Kan het afbeeldingsbestand niet lezen",
+    "saveFailed": "Brandinginstellingen opslaan mislukt"
+  },
+  "touch": {
+    "title": "Schermtoetsenbord",
+    "description": "Schermtoetsenbord in- of uitschakelen. Geldt alleen voor dit apparaat."
+  },
+  "cache": {
+    "title": "Cache",
+    "description": "Lokale POS-gegevens op deze terminal. Catalogus vernieuwen werkt menu, verdiepingen, betalingen en belastingen bij zonder open rekeningen te raken. Cache herladen wist alles en downloadt opnieuw van de server (inclusief klanten en recente orders). Vereist verbinding.",
+    "refreshCatalog": "Catalogus vernieuwen",
+    "reload": "Cache herladen",
+    "orderTypes": "Bestellingstypes",
+    "categories": "Categorieën",
+    "dishes": "Gerechten",
+    "modifierGroups": "Modifiergroepen",
+    "groupDishes": "Groepsgerechten",
+    "floors": "Verdiepingen",
+    "tables": "Tafels",
+    "kitchens": "Keukens",
+    "paymentTypes": "Betaaltypes",
+    "taxes": "Belastingen",
+    "catalogReloaded": "Catalogus vernieuwd vanaf de server",
+    "catalogReloadFailed": "Catalogus vernieuwen mislukt",
+    "confirmCatalog": "Menu, verdiepingen, betalingen en belastingen vanaf de server vernieuwen? Open rekeningen en niet-gesynchroniseerde orders blijven op deze terminal.",
+    "reloaded": "Cache gewist en opnieuw geladen vanaf de server",
+    "reloadFailed": "Cache herladen mislukt",
+    "confirm": "Lokale POS-cache wissen en een verse kopie van de server downloaden?",
+    "confirmWithPending": "U heeft {{count}} niet-gesynchroniseerde wijziging(en) die worden verworpen. Lokale POS-cache wissen en een verse kopie van de server downloaden?",
+    "offline": "Cache kan niet offline worden vernieuwd",
+    "offlineHint": "Beschikbaar wanneer verbonden met de server"
+  },
+  "serviceCharges": {
+    "title": "Servicekosten",
+    "updated": "Servicekosten bijgewerkt",
+    "saveDescription": "Servicekosten opslaan"
+  },
+  "printers": {
+    "title": "Standaardprinters",
+    "description": "Wijs printers toe per gebruiker of voor deze terminal. Als systeemprinters aan staan, gebruiken tijdelijke, definitieve, terugbetalings- en overzichtsafdrukken de toewijzingen van dit apparaat. Bezorging gebruikt altijd gebruikers- of globale instellingen.",
+    "loading": "Printerinstellingen laden…",
+    "useSystemPrinters": "Systeemprinters op dit apparaat gebruiken",
+    "useSystemPrintersDescription": "Indien ingeschakeld gebruikt deze browser/terminal de systeemprinters hieronder in plaats van die van de ingelogde gebruiker (behalve bezorging).",
+    "systemTitle": "Systeemprinters (dit apparaat)",
+    "systemDescription": "Alleen in deze browser opgeslagen. Ideaal voor gedeelde terminals zodat dichtbij wordt geprint. Bezorging is niet inbegrepen — blijft gebruiker of globaal.",
+    "userTitle": "Gebruikersprinters",
+    "userDescription": "Opgeslagen per ingelogde gebruiker. Gebruikt als systeemprinters uit staan, en altijd voor bezorging.",
+    "tempPrint": "Printers voor tijdelijke afdruk",
+    "finalPrint": "Printers voor definitieve afdruk",
+    "refundPrint": "Printers voor terugbetalingsafdruk",
+    "deliveryPrint": "Printers voor bezorgafdruk",
+    "summaryPrint": "Printers voor overzichtsafdruk",
+    "selectPrinters": "Selecteer printers…",
+    "saving": "Opslaan…",
+    "save": "Printerinstellingen opslaan",
+    "saveDescription": "Printers opslaan",
+    "loadFailed": "Printerinstellingen laden mislukt",
+    "loginRequired": "Log in om printerinstellingen op te slaan.",
+    "saved": "Printerinstellingen opgeslagen",
+    "saveFailed": "Printerinstellingen opslaan mislukt"
+  },
+  "printOptions": {
+    "title": "Afdrukopties",
+    "description": "Stel in hoeveel fysieke kopieën elk afdruktype produceert en hoe vaak tijdelijke of eindrekeningen per bestelling mogen worden afgedrukt voordat managergoedkeuring vereist is.",
+    "copiesTitle": "Kopieën per afdruktype",
+    "maxAttemptsTitle": "Max. afdrukpogingen per bestelling",
+    "unlimitedHint": "Zet max. pogingen op 0 voor onbeperkt. Bij limiet is goedkeuring nodig van een manager met Afdruklimiet overschrijven.",
+    "copies": {
+      "temp": "Tijdelijke rekening kopieën",
+      "final": "Eindrekening kopieën",
+      "refund": "Terugbetalingskopieën",
+      "kitchen": "Keuken / KOT kopieën",
+      "delivery": "Bezorgkopieën",
+      "summary": "Samenvatting kopieën"
+    },
+    "maxAttempts": {
+      "temp": "Max. tijdelijke rekening afdrukken",
+      "final": "Max. eindrekening afdrukken"
+    },
+    "updated": "Afdrukopties bijgewerkt",
+    "saveDescription": "Afdrukopties opslaan"
+  },
+  "menus": {
+    "title": "Menu-instellingen",
+    "activateMenus": "Menu's activeren",
+    "selectMenus": "Selecteer menu's…",
+    "loading": "Menu-instellingen laden…",
+    "saving": "Opslaan…",
+    "save": "Menu-instellingen opslaan",
+    "saveDescription": "Menu's opslaan",
+    "loadFailed": "Menu-instellingen laden mislukt",
+    "loginRequired": "Log in om menu-instellingen op te slaan.",
+    "saved": "Menu-instellingen opgeslagen",
+    "saveFailed": "Menu-instellingen opslaan mislukt"
+  },
+  "tableSelection": {
+    "title": "Tafelselectie verbergen in menu",
+    "description": "Tafelselectie overslaan en het menu direct openen. Geldt alleen voor dit apparaat. Geschikt voor afhaalbestellingen"
+  },
+  "autoCheckClose": {
+    "title": "Automatisch bon sluiten",
+    "description": "Open tafelbonnen automatisch sluiten bij het einde van de afsluitingscyclus. Bezorgbestellingen zijn uitgesloten. Er verschijnt 1 minuut voor sluiting een waarschuwing.",
+    "printOnClose": "Definitieve rekening afdrukken bij sluiten",
+    "paymentType": "Betaaltype",
+    "paymentTypeRequired": "Betaaltype is verplicht wanneer automatisch sluiten is ingeschakeld",
+    "paymentTypeRequiredField": "Betaaltype is verplicht",
+    "updated": "Instellingen automatisch bon sluiten bijgewerkt",
+    "saveDescription": "Instellingen automatisch bon sluiten opslaan"
+  },
+  "closingCycle": {
+    "title": "Afsluitingscyclus",
+    "description": "Configureer start- en eindtijd. Eindtijd kan de volgende dag zijn (voorbeeld: 06:00 tot 02:00).",
+    "startTime": "Starttijd",
+    "endTime": "Eindtijd",
+    "updated": "Afsluitingscyclus bijgewerkt",
+    "saveDescription": "Afsluitingscyclus opslaan"
+  },
+  "showInclusivePrices": {
+    "title": "Inclusieve prijzen tonen",
+    "description": "Indien ingeschakeld tonen regelbedragen op het betalingsscherm, bonnen en artikelrapporten de prijs inclusief belasting (bruto) voor menu-items met inclusieve belasting. De regel Artikelen/subtotaal blijft exclusief belasting, belasting blijft als aparte regel staan en het eindtotaal verandert niet. Items met exclusieve belasting worden niet beïnvloed. Dit is alleen weergave en verandert niet hoe prijzen worden opgeslagen of hoe belasting wordt berekend.",
+    "updated": "Instellingen voor inclusieve prijzen bijgewerkt",
+    "saveDescription": "Instellingen voor inclusieve prijzen opslaan"
+  },
+  "currencySymbol": {
+    "title": "Valutasymbool",
+    "description": "Bepaal of het valutasymbool naast bedragen in de app en op geprinte bonnen verschijnt. Uitgeschakeld toont alleen getallen (bijv. 1.250 in plaats van Rs 1.250). Dit is alleen weergave en wijzigt geen opgeslagen waarden.",
+    "showInUi": "Tonen op scherm",
+    "showOnReceipts": "Tonen op bonnen",
+    "updated": "Valutasymbool-instellingen bijgewerkt",
+    "saveDescription": "Valutasymbool-instellingen opslaan"
+  },
+  "translateReceipts": {
+    "title": "Bonnen vertalen",
+    "description": "Indien ingeschakeld gebruiken systeemlabels op geprinte bonnen (titels, factuur, tafel, belasting, totaal, keukentickets en samenvatting) de geselecteerde taal van dit apparaat. Aangepaste kop- en voettekst uit printinstellingen wordt niet vertaald.",
+    "updated": "Instellingen voor bonvertaling bijgewerkt",
+    "saveDescription": "Instellingen voor bonvertaling opslaan"
+  },
+  "visibilityConfig": {
+    "title": "Zichtbaarheid artikelen configureren",
+    "description": "Werk de configuratie voor dit apparaat bij om te bepalen welke kolommen voor artikelen worden weergegeven of verborgen. Geldt alleen voor dit apparaat.",
+    "menu": "Menu",
+    "enableDishSearch": "Zoeken op gerechtnummer in menu inschakelen",
+    "showDishNumber": "Gerechtnummers tonen op menutegels",
+    "dishSearchType": "Zoekmodus gerechten",
+    "dishSearchTypeNumber": "Alleen nummer",
+    "dishSearchTypeBoth": "Naam en nummer",
+    "cart": "Winkelwagen",
+    "showTotalsInCart": "Totalen voor artikelen in winkelwagen weergeven",
+    "orders": "Bestellingen",
+    "showTotalInOrderCard": "Totalen voor artikelen in orderkaart weergeven",
+    "showGroupsInOrderCard": "Groepen voor artikelen in orderkaart weergeven",
+    "showQuantityInOrderCard": "Hoeveelheid voor artikelen in orderkaart weergeven",
+    "showPriceInOrderCard": "Prijs voor artikelen in orderkaart weergeven",
+    "showModifiersInOrderCard": "Modifiers voor artikelen in orderkaart weergeven",
+    "showModifierPriceInOrderCard": "Modifierprijs voor artikelen in orderkaart weergeven",
+    "showTotalInPaymentCard": "Totalen voor artikelen in betalingsvenster weergeven"
+  },
+  "inventory": {
+    "title": "Inventory",
+    "description": "Ledger cutover and optional advanced tracking. Keep batch/expiry off unless you need them.",
+    "ledgerEnabled": "Use inventory ledger (single source of truth)",
+    "ledgerHint": "Enable only after running the ledger backfill and confirming reconciliation.",
+    "costingMethod": "Costing method",
+    "costing": {
+      "average": "Weighted Average",
+      "fifo": "FIFO",
+      "fefo": "FEFO"
+    },
+    "enableBatchTracking": "Enable batch tracking",
+    "enableExpiryTracking": "Enable expiry tracking",
+    "enableManufacturingDate": "Enable manufacturing dates",
+    "requireBatchSelection": "Require batch selection on issues",
+    "updated": "Inventory settings updated",
+    "save": "Save",
+    "saveDescription": "Save inventory settings",
+    "landedCostsSection": "Purchase cost allocation",
+    "enableLandedCosts": "Enable landed costs (shipping, freight, etc.)",
+    "enablePurchaseDiscounts": "Enable purchase discounts in inventory cost",
+    "enablePurchaseTaxes": "Enable purchase taxes in inventory cost",
+    "defaultAllocationMethod": "Default allocation method",
+    "allocation": {
+      "by_value": "By value",
+      "by_quantity": "By quantity",
+      "equal": "Equal"
+    },
+    "defaultPurchaseTaxBehavior": "Default purchase tax behavior",
+    "defaultPurchaseTaxBehaviorHint": "Non-recoverable tax is capitalized into inventory. Recoverable tax is ignored for valuation.",
+    "taxBehavior": {
+      "non_recoverable": "Non-recoverable (capitalize)",
+      "recoverable": "Recoverable (ignore for inventory)"
+    }
+  },
+  "whatsNew": {
+    "title": "Wat is er nieuw",
+    "description": "Bekijk release notes en recente updates voor deze app.",
+    "open": "Wat is er nieuw openen",
+    "dismiss": "Begrepen",
+    "dialogTitle": "Wat is er nieuw",
+    "previousReleases": "Eerdere updates",
+    "dateLabel": "Bijgewerkt {{date}}"
+  },
+  "sessionSecurity": {
+    "title": "Sessiebeveiliging",
+    "description": "Vergrendel of log deze gebruiker automatisch uit na een periode van inactiviteit. Kies één actie.",
+    "idleMinutes": "Minuten inactiviteit (bijv. 0,1 ≈ 6 seconden)",
+    "action": "Actie",
+    "actionLock": "Vergrendelen",
+    "actionLogout": "Uitloggen",
+    "updated": "Sessiebeveiligingsinstellingen bijgewerkt",
+    "saveDescription": "Sessiebeveiligingsinstellingen opslaan",
+    "loginRequired": "U moet ingelogd zijn om sessiebeveiliging op te slaan"
+  },
+  "autoClockOut": {
+    "title": "Automatisch uitklokken",
+    "description": "Klok automatisch uit aan het einde van de dienst en/of op een vast dagelijks tijdstip. Gebruikt de geplande dienst indien aanwezig, anders de toegewezen dienst. Geldt voor alle gebruikers.",
+    "onShiftEnd": "Uitklokken bij einde dienst",
+    "onDefinedTime": "Uitklokken op een vast tijdstip",
+    "definedTime": "Uitkloktijd",
+    "triggerRequired": "Schakel einde dienst en/of een vast tijdstip in wanneer automatisch uitklokken aan staat",
+    "updated": "Instellingen voor automatisch uitklokken bijgewerkt",
+    "saveDescription": "Instellingen voor automatisch uitklokken opslaan"
+  },
+  "numberPolicy": {
+    "title": "Factuurnummers",
+    "description": "Kies hoe POS-factuurnummers worden toegekend, gereset en opgemaakt. Het gehele getal blijft fiscaal veilig; de weergavestring wordt bij toekenning vastgelegd. Synchroniseer alle kassa’s na opslaan.",
+    "preset": "Voorinstelling",
+    "mintLabel": "Uitgifte",
+    "resetLabel": "Reset",
+    "scopeLabel": "Bereik",
+    "pendingModeLabel": "Tijdelijk label",
+    "template": "Sjabloon",
+    "prefix": "Voorvoegsel",
+    "suffix": "Achtervoegsel",
+    "branchCode": "Filiaalcode",
+    "terminalCode": "Code van deze terminal",
+    "startAt": "Start bij",
+    "pad": "Nulvulling",
+    "pendingMin": "Min. tekens tijdelijk",
+    "pendingMax": "Max. tekens tijdelijk",
+    "preview": "Voorbeeld",
+    "gapWarning": "Deze voorinstelling kan gaten in het restaurant creëren en is onveilig voor fiscale autoriteiten die een doorlopende reeks eisen.",
+    "acknowledgeGaps": "Ik begrijp dat er gaten in factuurnummers kunnen ontstaan",
+    "ackRequired": "Bevestig de waarschuwing vóór opslaan",
+    "updated": "Factuurnummerbeleid bijgewerkt",
+    "saveDescription": "Factuurnummerbeleid opslaan",
+    "presets": {
+      "date_reset": "Date reset (recommended)",
+      "global": "Global sequential",
+      "period": "Period reset (year/month)",
+      "branch": "Branch sequential",
+      "terminal": "Terminal sequential",
+      "prefix": "Prefix / suffix",
+      "composite": "Composite",
+      "pool": "Range / pool",
+      "hybrid": "Hybrid online + offline pool",
+      "fiscal_plus_posr": "Fiscal + POSR display",
+      "provider_defined": "Provider-defined (store only)"
+    },
+    "mint": {
+      "gateway": "Gateway (shared)",
+      "terminal": "Terminal pool",
+      "hybrid": "Hybrid"
+    },
+    "reset": {
+      "never": "Never",
+      "day": "Each day",
+      "month": "Each month",
+      "year": "Each year"
+    },
+    "scope": {
+      "restaurant": "Restaurant",
+      "branch": "Branch",
+      "terminal": "Terminal"
+    },
+    "pendingMode": {
+      "random": "Random code",
+      "blank": "Blank until sync"
+    },
+    "help": {
+      "date_reset": "Pros: restaurant-wide 1,2,3… each day; fiscal-safe. Cons: offline checks show a temporary code until sync.",
+      "global": "Pros: simple forever sequence (1001, 1002…). Cons: never resets; numbers grow forever.",
+      "period": "Pros: yearly/monthly documents look tidy. Cons: pick month vs year carefully.",
+      "branch": "Pros: LHR-001 style labels. Cons: no multi-branch org yet — one configured branch code per restaurant.",
+      "terminal": "Pros: each till has its own sequence. Cons: gaps across the restaurant; fiscal-unsafe.",
+      "prefix": "Pros: INV-001 style formatting on any mint/reset. Cons: cosmetic only; fiscal still uses the integer.",
+      "composite": "Pros: LHR-T02-2026-00125 from tokens. Cons: longer labels; fiscal still uses the integer.",
+      "pool": "Pros: works fully offline with reserved ints. Cons: the 200-block jump problem; fiscal-unsafe.",
+      "hybrid": "Pros: offline creates still get ints. Cons: leftover reserved numbers become holes after reconnect.",
+      "fiscal_plus_posr": "Pros: POS display plus authority fiscal number. Cons: two numbers on a receipt is an evasion risk — show fiscal when present.",
+      "provider_defined": "Pros: POSR stores what FBR/PRA return. Cons: not a POSR minter — use with fiscal integrations."
+    }
+  }
+}

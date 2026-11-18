@@ -1,0 +1,83 @@
+{
+  "tabs": {
+    "providers": "Provedores",
+    "configuration": "Configuração",
+    "health": "Status",
+    "queue": "Fila"
+  },
+  "title": "Integrações",
+  "description": "Gerencie instalação de provedores, configuração, status e trabalhos na fila.",
+  "configure": "Configurar",
+  "provider": "Provedor",
+  "saveConfiguration": "Salvar configuração",
+  "configurationSaved": "Configuração de integração atualizada",
+  "noPendingJobs": "Nenhum trabalho pendente.",
+  "security": {
+    "accessTab": "Acessar {{module}}",
+    "saveConfiguration": "Salvar configuração de integração",
+    "openConfiguration": "Abrir configuração de integração",
+    "toggleProvider": "Ativar ou desativar provedor de integração",
+    "connect": "Conectar provedor de integração",
+    "disconnect": "Desconectar provedor de integração",
+    "initialSync": "Executar sincronização inicial de integração"
+  },
+  "fields": {
+    "status": "Status",
+    "auth": "Autenticação",
+    "failedJobs": "Trabalhos com falha",
+    "action": "Ação",
+    "attempts": "Tentativas",
+    "created": "Criado",
+    "updated": "Atualizado",
+    "nextRun": "Próxima execução",
+    "error": "Erro",
+    "order": "Pedido"
+  },
+  "enabled": "Habilitado",
+  "disabled": "Desabilitado",
+  "enableProvider": "Habilitar",
+  "disableProvider": "Desabilitar",
+  "providerEnabled": "Provedor habilitado",
+  "providerDisabled": "Provedor desabilitado",
+  "enableFailed": "Não foi possível atualizar o status do provedor",
+  "status": {
+    "Pending": "Pendente",
+    "Running": "Em execução",
+    "Waiting": "Aguardando",
+    "Completed": "Concluído",
+    "Failed": "Falhou",
+    "Cancelled": "Cancelado",
+    "DeadLetter": "Falha permanente"
+  },
+  "connect": "Conectar",
+  "disconnect": "Desconectar",
+  "reconnect": "Reconectar",
+  "initialSync": "Executar sincronização inicial",
+  "connectionRequired": "Conecte uma empresa QuickBooks primeiro.",
+  "connectedTo": "Conectado a {{company}}",
+  "notConnected": "Não conectado",
+  "connecting": "Conectando...",
+  "disconnecting": "Desconectando...",
+  "syncing": "Sincronizando...",
+  "syncComplete": "Sincronização concluída — {{count}} entidades importadas.",
+  "syncFailed": "Falha na sincronização",
+  "lastSync": "Última sincronização",
+  "nextSync": "Próxima sincronização",
+  "syncProgress": "Progresso da sincronização",
+  "failedItems": "Itens com falha",
+  "oauth": {
+    "start": "Autorizar com QuickBooks",
+    "callbackError": "Falha no callback OAuth. Tente novamente.",
+    "disconnected": "Desconectado do QuickBooks"
+  },
+  "queue": {
+    "retry": "Tentar novamente",
+    "retrySuccess": "Trabalho reenviado com sucesso.",
+    "retryFailed": "Nova tentativa falhou.",
+    "retryFailedWithError": "Nova tentativa falhou: {{error}}",
+    "retryAlreadyCompleted": "Envio fiscal já estava concluído — trabalho da fila removido.",
+    "retryInvoicePending": "Número da fatura ainda não está pronto — tente novamente após a sincronização.",
+    "retryOrderNotFound": "Pedido não encontrado para nova tentativa fiscal.",
+    "retryProviderDisabled": "Provedor está desativado."
+  }
+}

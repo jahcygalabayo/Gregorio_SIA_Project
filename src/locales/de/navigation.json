@@ -1,0 +1,40 @@
+{
+  "sidebar": {
+    "menu": "Menü",
+    "orders": "Bestellungen",
+    "summary": "Übersicht",
+    "kitchen": "Küche",
+    "orderDisplay": "Bestellanzeige",
+    "delivery": "Lieferung",
+    "closing": "Abschluss",
+    "inventory": "Inventar",
+    "manage": "Verwalten",
+    "reports": "Berichte",
+    "tipDist": "Trinkgeldvert.",
+    "accounts": "Buchhaltung",
+    "settings": "Einstellungen",
+    "clock": "Stempeluhr",
+    "hr": "Personal",
+    "integrations": "Integrationen",
+    "requiresApproval": "Erfordert Genehmigung durch die Leitung"
+  },
+  "modules": {
+    "Menu": "Menü",
+    "Orders": "Bestellungen",
+    "Summary": "Übersicht",
+    "Reports": "Berichte",
+    "Closing": "Abschluss",
+    "Kitchen": "Küche",
+    "Order Display": "Bestellanzeige",
+    "Delivery": "Lieferung",
+    "Admin": "Administration",
+    "Riders": "Fahrer",
+    "Tips": "Trinkgeldverteilung",
+    "Inventory": "Inventar",
+    "Accounts": "Buchhaltung",
+    "Settings": "Einstellungen",
+    "HR": "Personalwesen",
+    "Integrations": "Integrationen"
+  },
+  "authenticateToAccess": "Authentifizieren Sie sich, um auf {{module}} zuzugreifen"
+}

@@ -1,0 +1,34 @@
+{
+  "actions": {
+    "completeAllOpen": "Alle offenen Bestellungen abschließen",
+    "completedOrders": "Abgeschlossene Bestellungen",
+    "viewAllDishes": "Alle Gerichte anzeigen",
+    "recall": "Zurückrufen",
+    "ready": "Fertig",
+    "reprint": "Neu drucken"
+  },
+  "labels": {
+    "avgTime": "Ø Zeit: {{time}}",
+    "avgTimeMins": "{{count}} Min.",
+    "addon": "ZUSATZ",
+    "original": "ORIGINAL",
+    "completed": "Abgeschlossen: {{time}}",
+    "items": "Artikel: {{count}}",
+    "continued": "FORTSETZUNG"
+  },
+  "announcements": {
+    "newOrder": "Neue Bestellung. {{context}}. {{number}}.",
+    "addon": "Zusatz. {{context}}. {{number}}.",
+    "itemAdded": "Artikel hinzugefügt. {{item}}. {{context}}. {{number}}.",
+    "itemRemoved": "Artikel storniert. {{item}}. {{context}}. {{number}}.",
+    "itemFallback": "Artikel"
+  },
+  "modal": {
+    "completedOrdersTitle": "{{kitchen}} Abgeschlossene Bestellungen (Heute)",
+    "noCompletedOrders": "Keine abgeschlossenen Bestellungen für heute gefunden."
+  },
+  "confirm": {
+    "title": "Bestätigen",
+    "completeAll": "Alle offenen Bestellungen in dieser Küche abschließen?"
+  }
+}

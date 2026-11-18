@@ -1,0 +1,40 @@
+{
+  "sidebar": {
+    "menu": "Menu",
+    "orders": "Bestellingen",
+    "summary": "Overzicht",
+    "kitchen": "Keuken",
+    "orderDisplay": "Bestelscherm",
+    "delivery": "Bezorging",
+    "closing": "Afsluiting",
+    "inventory": "Voorraad",
+    "manage": "Beheer",
+    "reports": "Rapporten",
+    "tipDist": "Fooiverdeling",
+    "accounts": "Boekhouding",
+    "settings": "Instellingen",
+    "clock": "Klok",
+    "hr": "HR",
+    "integrations": "Integraties",
+    "requiresApproval": "Vereist goedkeuring van de manager"
+  },
+  "modules": {
+    "Menu": "Menu",
+    "Orders": "Bestellingen",
+    "Summary": "Overzicht",
+    "Reports": "Rapporten",
+    "Closing": "Afsluiting",
+    "Kitchen": "Keuken",
+    "Order Display": "Bestelscherm",
+    "Delivery": "Bezorging",
+    "Admin": "Beheer",
+    "Riders": "Bezorgers",
+    "Tips": "Fooiverdeling",
+    "Inventory": "Voorraad",
+    "Accounts": "Boekhouding",
+    "Settings": "Instellingen",
+    "HR": "Personeelszaken",
+    "Integrations": "Integraties"
+  },
+  "authenticateToAccess": "Authenticeer om toegang te krijgen tot {{module}}"
+}

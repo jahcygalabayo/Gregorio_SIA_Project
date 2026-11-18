@@ -1,0 +1,83 @@
+{
+  "tabs": {
+    "providers": "Providers",
+    "configuration": "Configuratie",
+    "health": "Status",
+    "queue": "Wachtrij"
+  },
+  "title": "Integraties",
+  "description": "Beheer providerinstallatie, configuratie, status en wachtrijtaken.",
+  "configure": "Configureren",
+  "provider": "Provider",
+  "saveConfiguration": "Configuratie opslaan",
+  "configurationSaved": "Integratieconfiguratie bijgewerkt",
+  "noPendingJobs": "Geen openstaande taken.",
+  "security": {
+    "accessTab": "Toegang tot {{module}}",
+    "saveConfiguration": "Integratieconfiguratie opslaan",
+    "openConfiguration": "Integratieconfiguratie openen",
+    "toggleProvider": "Integratieprovider in- of uitschakelen",
+    "connect": "Integratieprovider verbinden",
+    "disconnect": "Integratieprovider verbreken",
+    "initialSync": "Initiële integratiesynchronisatie uitvoeren"
+  },
+  "fields": {
+    "status": "Status",
+    "auth": "Authenticatie",
+    "failedJobs": "Mislukte taken",
+    "action": "Actie",
+    "attempts": "Pogingen",
+    "created": "Aangemaakt",
+    "updated": "Bijgewerkt",
+    "nextRun": "Volgende run",
+    "error": "Fout",
+    "order": "Bestelling"
+  },
+  "enabled": "Ingeschakeld",
+  "disabled": "Uitgeschakeld",
+  "enableProvider": "Inschakelen",
+  "disableProvider": "Uitschakelen",
+  "providerEnabled": "Provider ingeschakeld",
+  "providerDisabled": "Provider uitgeschakeld",
+  "enableFailed": "Kan providerstatus niet bijwerken",
+  "status": {
+    "Pending": "In behandeling",
+    "Running": "Bezig",
+    "Waiting": "Wachtend",
+    "Completed": "Voltooid",
+    "Failed": "Mislukt",
+    "Cancelled": "Geannuleerd",
+    "DeadLetter": "Permanent mislukt"
+  },
+  "connect": "Verbinden",
+  "disconnect": "Verbreken",
+  "reconnect": "Opnieuw verbinden",
+  "initialSync": "Start initiële synchronisatie",
+  "connectionRequired": "Verbind eerst een QuickBooks-bedrijf.",
+  "connectedTo": "Verbonden met {{company}}",
+  "notConnected": "Niet verbonden",
+  "connecting": "Verbinden...",
+  "disconnecting": "Verbreken...",
+  "syncing": "Synchroniseren...",
+  "syncComplete": "Synchronisatie voltooid — {{count}} entiteiten geïmporteerd.",
+  "syncFailed": "Synchronisatie mislukt",
+  "lastSync": "Laatste sync",
+  "nextSync": "Volgende sync",
+  "syncProgress": "Sync-voortgang",
+  "failedItems": "Mislukte items",
+  "oauth": {
+    "start": "Autoriseren met QuickBooks",
+    "callbackError": "OAuth-callback mislukt. Probeer opnieuw.",
+    "disconnected": "Verbroken van QuickBooks"
+  },
+  "queue": {
+    "retry": "Opnieuw proberen",
+    "retrySuccess": "Taak succesvol opnieuw geprobeerd.",
+    "retryFailed": "Opnieuw proberen mislukt.",
+    "retryFailedWithError": "Opnieuw proberen mislukt: {{error}}",
+    "retryAlreadyCompleted": "Fiscale inzending was al voltooid — wachtrijtaak gewist.",
+    "retryInvoicePending": "Factuurnummer is nog niet klaar — probeer opnieuw na sync.",
+    "retryOrderNotFound": "Bestelling niet gevonden voor fiscale herpoging.",
+    "retryProviderDisabled": "Provider is uitgeschakeld."
+  }
+}

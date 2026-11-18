@@ -1,0 +1,34 @@
+{
+  "actions": {
+    "completeAllOpen": "Завершить все открытые заказы",
+    "completedOrders": "Завершённые заказы",
+    "viewAllDishes": "Показать все блюда",
+    "recall": "Вернуть",
+    "ready": "Готово",
+    "reprint": "Перепечатать"
+  },
+  "labels": {
+    "avgTime": "Среднее время: {{time}}",
+    "avgTimeMins": "{{count}} мин",
+    "addon": "ДОПОЛНЕНИЕ",
+    "original": "ОСНОВНОЙ",
+    "completed": "Завершено: {{time}}",
+    "items": "Позиций: {{count}}",
+    "continued": "ПРОДОЛЖЕНИЕ"
+  },
+  "announcements": {
+    "newOrder": "Новый заказ. {{context}}. {{number}}.",
+    "addon": "Дополнение. {{context}}. {{number}}.",
+    "itemAdded": "Позиция добавлена. {{item}}. {{context}}. {{number}}.",
+    "itemRemoved": "Позиция отменена. {{item}}. {{context}}. {{number}}.",
+    "itemFallback": "Позиция"
+  },
+  "modal": {
+    "completedOrdersTitle": "{{kitchen}} — завершённые заказы (сегодня)",
+    "noCompletedOrders": "Завершённые заказы за сегодня не найдены."
+  },
+  "confirm": {
+    "title": "Подтвердить",
+    "completeAll": "Завершить все открытые заказы на этой кухне?"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "sidebar": {
+    "menu": "Cardápio",
+    "orders": "Pedidos",
+    "summary": "Resumo",
+    "kitchen": "Cozinha",
+    "orderDisplay": "Display de pedidos",
+    "delivery": "Entrega",
+    "closing": "Fechamento",
+    "inventory": "Estoque",
+    "manage": "Gerenciar",
+    "reports": "Relatórios",
+    "tipDist": "Dist. gorjetas",
+    "accounts": "Contas",
+    "settings": "Configurações",
+    "clock": "Ponto",
+    "hr": "RH",
+    "integrations": "Integrações",
+    "requiresApproval": "Requer aprovação do gerente"
+  },
+  "modules": {
+    "Menu": "Cardápio",
+    "Orders": "Pedidos",
+    "Summary": "Resumo",
+    "Reports": "Relatórios",
+    "Closing": "Fechamento",
+    "Kitchen": "Cozinha",
+    "Order Display": "Display de pedidos",
+    "Delivery": "Entrega",
+    "Admin": "Administração",
+    "Riders": "Entregadores",
+    "Tips": "Distribuição de gorjetas",
+    "Inventory": "Estoque",
+    "Accounts": "Contas",
+    "Settings": "Configurações",
+    "HR": "Recursos humanos",
+    "Integrations": "Integrações"
+  },
+  "authenticateToAccess": "Autentique-se para acessar {{module}}"
+}

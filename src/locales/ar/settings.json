@@ -1,0 +1,345 @@
+{
+  "language": {
+    "title": "اللغة",
+    "description": "اختر لغة العرض لهذا الجهاز. ينطبق على هذا الجهاز فقط.",
+    "changed": "تم تحديث اللغة"
+  },
+  "direction": {
+    "title": "اتجاه النص",
+    "description": "اختر تخطيط من اليسار إلى اليمين أو من اليمين إلى اليسار لهذا الجهاز.",
+    "ltr": "LTR",
+    "rtl": "RTL"
+  },
+  "theme": {
+    "title": "المظهر",
+    "description": "اختر الوضع الفاتح أو الداكن أو اتبع إعداد نظام هذا الجهاز. ينطبق على هذا الجهاز فقط.",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام",
+    "brandTitle": "ألوان العلامة",
+    "brandDescription": "اختر حزمة ألوان لهذا الجهاز. تُحدَّث الواجهة والأزرار والقوائم والرسوم فورًا.",
+    "brand": {
+      "classic": "كلاسيكي",
+      "ocean": "محيط",
+      "forest": "غابة",
+      "cream": "كريمي",
+      "ruby": "ياقوت",
+      "sapphire": "ياقوت أزرق",
+      "custom": "مخصص"
+    },
+    "customDescription": "اختر لوناً أساسياً. تُشتق الأسطح والحدود والتمييزات منه للوضعين الفاتح والداكن.",
+    "customPrimary": "اللون الأساسي",
+    "customHex": "Hex",
+    "customApply": "تطبيق",
+    "customPreview": "معاينة",
+    "colorCanvas": "الخلفية",
+    "colorSurface": "السطح",
+    "colorForeground": "النص",
+    "colorPrimary": "اللون الأساسي",
+    "colorBorder": "الحدود"
+  },
+  "branding": {
+    "title": "الهوية البصرية",
+    "description": "ارفع شعار مطعمك ليظهر في شاشة تسجيل الدخول أسفل علامة POSR.",
+    "logo": "شعار العلامة",
+    "logoHint": "PNG أو JPEG أو GIF أو WebP. الحد الأقصى 500 كيلوبايت.",
+    "upload": "رفع الشعار",
+    "remove": "إزالة الشعار",
+    "preview": "معاينة الشعار",
+    "updated": "تم تحديث إعدادات الهوية البصرية",
+    "saveDescription": "حفظ إعدادات الهوية البصرية",
+    "tooLarge": "يتجاوز الملف الحجم الأقصى {{size}}.",
+    "invalidType": "استخدم صورة PNG أو JPEG أو GIF أو WebP.",
+    "readFailed": "تعذّر قراءة ملف الصورة",
+    "saveFailed": "فشل حفظ إعدادات الهوية البصرية"
+  },
+  "touch": {
+    "title": "لوحة المفاتيح على الشاشة",
+    "description": "تفعيل أو تعطيل لوحة المفاتيح على الشاشة. ينطبق على هذا الجهاز فقط."
+  },
+  "cache": {
+    "title": "ذاكرة التخزين المؤقت",
+    "description": "بيانات نقطة البيع المحلية على هذا الجهاز. تحديث الكتالوج يحدّث القائمة والطوابق والمدفوعات والضرائب دون المساس بالفواتير المفتوحة. إعادة تحميل الذاكرة تمسح كل شيء وتعيد التنزيل من الخادم (بما في ذلك العملاء والطلبات الحديثة). يتطلب اتصالاً.",
+    "refreshCatalog": "تحديث الكتالوج",
+    "reload": "إعادة تحميل ذاكرة التخزين المؤقت",
+    "orderTypes": "أنواع الطلبات",
+    "categories": "الفئات",
+    "dishes": "الأطباق",
+    "modifierGroups": "مجموعات الإضافات",
+    "groupDishes": "أطباق المجموعة",
+    "floors": "الطوابق",
+    "tables": "الطاولات",
+    "kitchens": "المطابخ",
+    "paymentTypes": "أنواع الدفع",
+    "taxes": "الضرائب",
+    "catalogReloaded": "تم تحديث الكتالوج من الخادم",
+    "catalogReloadFailed": "فشل تحديث الكتالوج",
+    "confirmCatalog": "تحديث القائمة والطوابق والمدفوعات والضرائب من الخادم؟ تبقى الفواتير المفتوحة والطلبات غير المتزامنة على هذا الجهاز.",
+    "reloaded": "تم مسح الذاكرة وإعادة تحميلها من الخادم",
+    "reloadFailed": "فشل إعادة تحميل الذاكرة",
+    "confirm": "مسح ذاكرة نقطة البيع المحلية وتنزيل نسخة جديدة من الخادم؟",
+    "confirmWithPending": "لديك {{count}} تغيير(ات) غير متزامنة سيتم تجاهلها. مسح ذاكرة نقطة البيع المحلية وتنزيل نسخة جديدة من الخادم؟",
+    "offline": "لا يمكن تحديث الذاكرة أثناء عدم الاتصال",
+    "offlineHint": "متاح عند الاتصال بالخادم"
+  },
+  "serviceCharges": {
+    "title": "رسوم الخدمة",
+    "updated": "تم تحديث رسوم الخدمة",
+    "saveDescription": "حفظ رسوم الخدمة"
+  },
+  "printers": {
+    "title": "الطابعات الافتراضية",
+    "description": "عيّن الطابعات لكل مستخدم أو لهذا الجهاز. عند تفعيل طابعات النظام، تُستخدم تعيينات هذا الجهاز للطباعة المؤقتة والنهائية والاسترداد والملخص. طباعة التوصيل تستخدم دائمًا إعدادات المستخدم أو العامة.",
+    "loading": "جارٍ تحميل إعدادات الطابعة…",
+    "useSystemPrinters": "استخدام طابعات النظام على هذا الجهاز",
+    "useSystemPrintersDescription": "عند التفعيل، يستخدم هذا المتصفح/الجهاز تعيينات طابعات النظام أدناه بدل طابعات المستخدم المسجّل (باستثناء التوصيل).",
+    "systemTitle": "طابعات النظام (هذا الجهاز)",
+    "systemDescription": "تُحفظ في هذا المتصفح فقط. مناسبة للأجهزة المشتركة حتى تُطبع على الطابعات القريبة. التوصيل غير مشمول — يبقى للمستخدم أو الإعدادات العامة.",
+    "userTitle": "طابعات المستخدم",
+    "userDescription": "تُحفظ لكل مستخدم مسجّل. تُستخدم عند إيقاف طابعات النظام، ودائمًا لطباعة التوصيل.",
+    "tempPrint": "طابعات الطباعة المؤقتة",
+    "finalPrint": "طابعات الطباعة النهائية",
+    "refundPrint": "طابعات طباعة الاسترداد",
+    "deliveryPrint": "طابعات طباعة التوصيل",
+    "summaryPrint": "طابعات طباعة الملخص",
+    "selectPrinters": "اختر الطابعات…",
+    "saving": "جارٍ الحفظ…",
+    "save": "حفظ إعدادات الطابعة",
+    "saveDescription": "حفظ الطابعات",
+    "loadFailed": "فشل تحميل إعدادات الطابعة",
+    "loginRequired": "يُرجى تسجيل الدخول لحفظ إعدادات الطابعة.",
+    "saved": "تم حفظ إعدادات الطابعة",
+    "saveFailed": "فشل حفظ إعدادات الطابعة"
+  },
+  "printOptions": {
+    "title": "خيارات الطباعة",
+    "description": "حدد عدد النسخ الفعلية لكل نوع طباعة وعدد مرات طباعة الفواتير المؤقتة أو النهائية لكل طلب قبل الحاجة لموافقة المدير.",
+    "copiesTitle": "النسخ لكل نوع طباعة",
+    "maxAttemptsTitle": "الحد الأقصى لمحاولات الطباعة لكل طلب",
+    "unlimitedHint": "اضبط الحد الأقصى على 0 لغير محدود. عند الوصول للحد، يلزم مدير بصلاحية تجاوز حد الطباعة.",
+    "copies": {
+      "temp": "نسخ الفاتورة المؤقتة",
+      "final": "نسخ الفاتورة النهائية",
+      "refund": "نسخ الاسترداد",
+      "kitchen": "نسخ المطبخ / KOT",
+      "delivery": "نسخ التوصيل",
+      "summary": "نسخ الملخص"
+    },
+    "maxAttempts": {
+      "temp": "الحد الأقصى لطباعة الفاتورة المؤقتة",
+      "final": "الحد الأقصى لطباعة الفاتورة النهائية"
+    },
+    "updated": "تم تحديث خيارات الطباعة",
+    "saveDescription": "حفظ خيارات الطباعة"
+  },
+  "menus": {
+    "title": "إعدادات القائمة",
+    "activateMenus": "تفعيل القوائم",
+    "selectMenus": "اختر القوائم…",
+    "loading": "جارٍ تحميل إعدادات القائمة…",
+    "saving": "جارٍ الحفظ…",
+    "save": "حفظ إعدادات القائمة",
+    "saveDescription": "حفظ القوائم",
+    "loadFailed": "فشل تحميل إعدادات القائمة",
+    "loginRequired": "يُرجى تسجيل الدخول لحفظ إعدادات القائمة.",
+    "saved": "تم حفظ إعدادات القائمة",
+    "saveFailed": "فشل حفظ إعدادات القائمة"
+  },
+  "tableSelection": {
+    "title": "إخفاء اختيار الطاولة من القائمة",
+    "description": "تخطّ اختيار الطاولة وافتح القائمة مباشرة. ينطبق على هذا الجهاز فقط. مناسب لطلبات الوجبات الجاهزة"
+  },
+  "autoCheckClose": {
+    "title": "إغلاق الفاتورة تلقائياً",
+    "description": "إغلاق فواتير الطاولات المفتوحة تلقائياً عند انتهاء دورة الإغلاق. تُستثنى طلبات التوصيل. يظهر تحذير قبل دقيقة واحدة من الإغلاق.",
+    "printOnClose": "طباعة الفاتورة النهائية عند الإغلاق",
+    "paymentType": "نوع الدفع",
+    "paymentTypeRequired": "نوع الدفع مطلوب عند تفعيل الإغلاق التلقائي",
+    "paymentTypeRequiredField": "نوع الدفع مطلوب",
+    "updated": "تم تحديث إعدادات الإغلاق التلقائي للفاتورة",
+    "saveDescription": "حفظ إعدادات الإغلاق التلقائي للفاتورة"
+  },
+  "closingCycle": {
+    "title": "دورة الإغلاق",
+    "description": "اضبط وقت بداية ونهاية الدورة. يمكن أن يكون وقت النهاية في اليوم التالي (مثال: 06:00 إلى 02:00).",
+    "startTime": "وقت البداية",
+    "endTime": "وقت النهاية",
+    "updated": "تم تحديث إعدادات دورة الإغلاق",
+    "saveDescription": "حفظ إعدادات دورة الإغلاق"
+  },
+  "showInclusivePrices": {
+    "title": "عرض الأسعار الشاملة للضريبة",
+    "description": "عند التفعيل، تظهر مبالغ البنود في شاشة الدفع والإيصالات والتقارير على مستوى الصنف بالسعر الشامل للضريبة (الإجمالي) لعناصر القائمة المضبوطة بضريبة شاملة. يبقى صف العناصر/المجموع الفرعي بدون ضريبة، وتُعرض الضريبة في صف منفصل، ولا يتغير الإجمالي. عناصر الضريبة الحصرية لا تتأثر. هذا للعرض فقط ولا يغيّر كيفية تخزين الأسعار أو حساب الضريبة.",
+    "updated": "تم تحديث إعدادات عرض الأسعار الشاملة",
+    "saveDescription": "حفظ إعدادات عرض الأسعار الشاملة"
+  },
+  "currencySymbol": {
+    "title": "رمز العملة",
+    "description": "تحكم في ظهور رمز العملة بجانب المبالغ في التطبيق وعلى الإيصالات المطبوعة. عند الإيقاف تظهر الأرقام فقط (مثل 1,250 بدلًا من ر.س 1,250). هذا للعرض فقط ولا يغيّر القيم المخزّنة.",
+    "showInUi": "إظهار على الشاشة",
+    "showOnReceipts": "إظهار على الإيصالات",
+    "updated": "تم تحديث إعدادات رمز العملة",
+    "saveDescription": "حفظ إعدادات رمز العملة"
+  },
+  "translateReceipts": {
+    "title": "ترجمة الإيصالات",
+    "description": "عند التفعيل، تستخدم تسميات النظام في الإيصالات المطبوعة (العناوين، الفاتورة، الطاولة، الضريبة، الإجمالي، تذاكر المطبخ والملخص) لغة هذا الجهاز المحددة. النص المخصص للترويسة والتذييل من إعدادات الطباعة لا يُترجم.",
+    "updated": "تم تحديث إعدادات ترجمة الإيصالات",
+    "saveDescription": "حفظ إعدادات ترجمة الإيصالات"
+  },
+  "visibilityConfig": {
+    "title": "إعدادات ظهور الأصناف",
+    "description": "حدّث إعدادات هذا الجهاز لاختيار الأعمدة التي تريد إظهارها أو إخفاؤها للأصناف. ينطبق على هذا الجهاز فقط.",
+    "menu": "القائمة",
+    "enableDishSearch": "تفعيل البحث برقم الطبق في القائمة",
+    "showDishNumber": "إظهار أرقام الأطباق على بلاطات القائمة",
+    "dishSearchType": "وضع البحث عن الطبق",
+    "dishSearchTypeNumber": "الرقم فقط",
+    "dishSearchTypeBoth": "الاسم والرقم",
+    "cart": "السلة",
+    "showTotalsInCart": "إظهار إجماليات الأصناف في السلة",
+    "orders": "الطلبات",
+    "showTotalInOrderCard": "إظهار إجماليات الأصناف في بطاقة الطلب",
+    "showGroupsInOrderCard": "إظهار مجموعات الأصناف في بطاقة الطلب",
+    "showQuantityInOrderCard": "إظهار كمية الأصناف في بطاقة الطلب",
+    "showPriceInOrderCard": "إظهار سعر الأصناف في بطاقة الطلب",
+    "showModifiersInOrderCard": "إظهار الإضافات للأصناف في بطاقة الطلب",
+    "showModifierPriceInOrderCard": "إظهار سعر الإضافات في بطاقة الطلب",
+    "showTotalInPaymentCard": "إظهار إجماليات الأصناف في مربع الدفع"
+  },
+  "inventory": {
+    "title": "المخزون",
+    "description": "تفعيل دفتر المخزون والتتبع المتقدم الاختياري. اترك الدفعات/الصلاحية متوقفة ما لم تكن مطلوبة.",
+    "ledgerEnabled": "استخدام دفتر المخزون (مصدر الحقيقة الوحيد)",
+    "ledgerHint": "فعّله فقط بعد تشغيل تعبئة الدفتر والتأكد من المطابقة.",
+    "costingMethod": "طريقة التكلفة",
+    "costing": {
+      "average": "متوسط مرجح",
+      "fifo": "FIFO",
+      "fefo": "FEFO"
+    },
+    "enableBatchTracking": "تفعيل تتبع الدفعات",
+    "enableExpiryTracking": "تفعيل تتبع الصلاحية",
+    "enableManufacturingDate": "تفعيل تواريخ التصنيع",
+    "requireBatchSelection": "إلزام اختيار الدفعة عند الصرف",
+    "updated": "تم تحديث إعدادات المخزون",
+    "save": "حفظ",
+    "saveDescription": "حفظ إعدادات المخزون",
+    "landedCostsSection": "توزيع تكلفة الشراء",
+    "enableLandedCosts": "تفعيل التكاليف الإضافية (الشحن، الشحن البحري، إلخ)",
+    "enablePurchaseDiscounts": "تفعيل خصومات الشراء في تكلفة المخزون",
+    "enablePurchaseTaxes": "تفعيل ضريبة الشراء في تكلفة المخزون",
+    "defaultAllocationMethod": "طريقة التوزيع الافتراضية",
+    "allocation": {
+      "by_value": "حسب القيمة",
+      "by_quantity": "حسب الكمية",
+      "equal": "بالتساوي"
+    },
+    "defaultPurchaseTaxBehavior": "سلوك ضريبة الشراء الافتراضي",
+    "defaultPurchaseTaxBehaviorHint": "الضريبة غير القابلة للاسترداد تُرسمل في المخزون. الضريبة القابلة للاسترداد تُتجاهل للتقييم.",
+    "taxBehavior": {
+      "non_recoverable": "غير قابلة للاسترداد (رسملة)",
+      "recoverable": "قابلة للاسترداد (تجاهل للمخزون)"
+    }
+  },
+  "whatsNew": {
+    "title": "ما الجديد",
+    "description": "عرض ملاحظات الإصدار والتحديثات الأخيرة لهذا التطبيق.",
+    "open": "فتح ما الجديد",
+    "dismiss": "حسنًا",
+    "dialogTitle": "ما الجديد",
+    "previousReleases": "التحديثات السابقة",
+    "dateLabel": "تم التحديث {{date}}"
+  },
+  "sessionSecurity": {
+    "title": "أمان الجلسة",
+    "description": "قفل أو تسجيل خروج هذا المستخدم تلقائيًا بعد فترة من عدم النشاط. اختر إجراءً واحدًا.",
+    "idleMinutes": "دقائق الخمول (مثل 0.1 ≈ 6 ثوانٍ)",
+    "action": "الإجراء",
+    "actionLock": "قفل",
+    "actionLogout": "تسجيل الخروج",
+    "updated": "تم تحديث إعدادات أمان الجلسة",
+    "saveDescription": "حفظ إعدادات أمان الجلسة",
+    "loginRequired": "يجب تسجيل الدخول لحفظ إعدادات أمان الجلسة"
+  },
+  "autoClockOut": {
+    "title": "تسجيل انصراف تلقائي",
+    "description": "تسجيل انصراف المستخدم المسجّل تلقائيًا عند انتهاء ورديته و/أو في وقت يومي محدد. تُستخدم الوردية المجدولة إن وُجدت، وإلا وردية المستخدم المعيّنة. ينطبق على جميع المستخدمين.",
+    "onShiftEnd": "تسجيل الانصراف عند انتهاء الوردية",
+    "onDefinedTime": "تسجيل الانصراف في وقت محدد",
+    "definedTime": "وقت تسجيل الانصراف",
+    "triggerRequired": "فعّل انتهاء الوردية و/أو وقتًا محددًا عند تفعيل تسجيل الانصراف التلقائي",
+    "updated": "تم تحديث إعدادات تسجيل الانصراف التلقائي",
+    "saveDescription": "حفظ إعدادات تسجيل الانصراف التلقائي"
+  },
+  "numberPolicy": {
+    "title": "أرقام الفواتير",
+    "description": "اختر كيفية إنشاء أرقام فواتير نقطة البيع وإعادة تعيينها وتنسيقها. يبقى العدد الصحيح آمناً ضريبياً؛ وتُثبَّت سلسلة العرض عند التخصيص. زامن كل الأجهزة بعد الحفظ.",
+    "preset": "إعداد مسبق",
+    "mintLabel": "الإصدار",
+    "resetLabel": "إعادة التعيين",
+    "scopeLabel": "النطاق",
+    "pendingModeLabel": "تسمية مؤقتة",
+    "template": "القالب",
+    "prefix": "البادئة",
+    "suffix": "اللاحقة",
+    "branchCode": "رمز الفرع",
+    "terminalCode": "رمز هذا الجهاز",
+    "startAt": "البدء من",
+    "pad": "حشو بالأصفار",
+    "pendingMin": "حد أدنى للأحرف المؤقتة",
+    "pendingMax": "حد أقصى للأحرف المؤقتة",
+    "preview": "معاينة",
+    "gapWarning": "قد يُحدث هذا الإعداد فجوات في تسلسل المطعم وهو غير آمن للجهات الضريبية التي تتطلب تسلسلاً متصلاً.",
+    "acknowledgeGaps": "أفهم أن ذلك قد يُحدث فجوات في أرقام الفواتير",
+    "ackRequired": "أكد تحذير الفجوات قبل الحفظ",
+    "updated": "تم تحديث سياسة أرقام الفواتير",
+    "saveDescription": "حفظ سياسة أرقام الفواتير",
+    "presets": {
+      "date_reset": "Date reset (recommended)",
+      "global": "Global sequential",
+      "period": "Period reset (year/month)",
+      "branch": "Branch sequential",
+      "terminal": "Terminal sequential",
+      "prefix": "Prefix / suffix",
+      "composite": "Composite",
+      "pool": "Range / pool",
+      "hybrid": "Hybrid online + offline pool",
+      "fiscal_plus_posr": "Fiscal + POSR display",
+      "provider_defined": "Provider-defined (store only)"
+    },
+    "mint": {
+      "gateway": "Gateway (shared)",
+      "terminal": "Terminal pool",
+      "hybrid": "Hybrid"
+    },
+    "reset": {
+      "never": "Never",
+      "day": "Each day",
+      "month": "Each month",
+      "year": "Each year"
+    },
+    "scope": {
+      "restaurant": "Restaurant",
+      "branch": "Branch",
+      "terminal": "Terminal"
+    },
+    "pendingMode": {
+      "random": "Random code",
+      "blank": "Blank until sync"
+    },
+    "help": {
+      "date_reset": "Pros: restaurant-wide 1,2,3… each day; fiscal-safe. Cons: offline checks show a temporary code until sync.",
+      "global": "Pros: simple forever sequence (1001, 1002…). Cons: never resets; numbers grow forever.",
+      "period": "Pros: yearly/monthly documents look tidy. Cons: pick month vs year carefully.",
+      "branch": "Pros: LHR-001 style labels. Cons: no multi-branch org yet — one configured branch code per restaurant.",
+      "terminal": "Pros: each till has its own sequence. Cons: gaps across the restaurant; fiscal-unsafe.",
+      "prefix": "Pros: INV-001 style formatting on any mint/reset. Cons: cosmetic only; fiscal still uses the integer.",
+      "composite": "Pros: LHR-T02-2026-00125 from tokens. Cons: longer labels; fiscal still uses the integer.",
+      "pool": "Pros: works fully offline with reserved ints. Cons: the 200-block jump problem; fiscal-unsafe.",
+      "hybrid": "Pros: offline creates still get ints. Cons: leftover reserved numbers become holes after reconnect.",
+      "fiscal_plus_posr": "Pros: POS display plus authority fiscal number. Cons: two numbers on a receipt is an evasion risk — show fiscal when present.",
+      "provider_defined": "Pros: POSR stores what FBR/PRA return. Cons: not a POSR minter — use with fiscal integrations."
+    }
+  }
+}

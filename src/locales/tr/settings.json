@@ -1,0 +1,345 @@
+{
+  "language": {
+    "title": "Dil",
+    "description": "Bu cihaz için görüntüleme dilini seçin. Yalnızca bu cihaza uygulanır.",
+    "changed": "Dil güncellendi"
+  },
+  "direction": {
+    "title": "Metin yönü",
+    "description": "Bu cihaz için soldan sağa veya sağdan sola düzeni seçin.",
+    "ltr": "LTR",
+    "rtl": "RTL"
+  },
+  "theme": {
+    "title": "Görünüm",
+    "description": "Açık, koyu veya bu cihazın sistem ayarını seçin. Yalnızca bu cihaza uygulanır.",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem",
+    "brandTitle": "Marka renkleri",
+    "brandDescription": "Bu cihaz için bir renk paketi seçin. Arayüz, düğmeler, seçiciler ve grafikler hemen güncellenir.",
+    "brand": {
+      "classic": "Klasik",
+      "ocean": "Okyanus",
+      "forest": "Orman",
+      "cream": "Krem",
+      "ruby": "Yakut",
+      "sapphire": "Safir",
+      "custom": "Özel"
+    },
+    "customDescription": "Bir ana renk seçin. Yüzeyler, kenarlıklar ve vurgular açık ve koyu mod için ondan türetilir.",
+    "customPrimary": "Ana renk",
+    "customHex": "Hex",
+    "customApply": "Uygula",
+    "customPreview": "Önizleme",
+    "colorCanvas": "Arka plan",
+    "colorSurface": "Yüzey",
+    "colorForeground": "Metin",
+    "colorPrimary": "Ana renk",
+    "colorBorder": "Kenarlık"
+  },
+  "branding": {
+    "title": "Marka",
+    "description": "Giriş ekranında POSR işaretinin altında gösterilecek restoran logonuzu yükleyin.",
+    "logo": "Marka logosu",
+    "logoHint": "PNG, JPEG, GIF veya WebP. En fazla 500 KB.",
+    "upload": "Logo yükle",
+    "remove": "Logoyu kaldır",
+    "preview": "Logo önizleme",
+    "updated": "Marka ayarları güncellendi",
+    "saveDescription": "Marka ayarlarını kaydet",
+    "tooLarge": "Dosya {{size}} en büyük boyutunu aşıyor.",
+    "invalidType": "PNG, JPEG, GIF veya WebP bir görsel kullanın.",
+    "readFailed": "Görsel dosyası okunamadı",
+    "saveFailed": "Marka ayarları kaydedilemedi"
+  },
+  "touch": {
+    "title": "Ekran klavyesi",
+    "description": "Ekran klavyesini etkinleştirin veya devre dışı bırakın. Yalnızca bu cihaza uygulanır."
+  },
+  "cache": {
+    "title": "Önbellek",
+    "description": "Bu terminaldeki yerel POS verileri. Kataloğu yenile, açık adisyonlara dokunmadan menü, katlar, ödemeler ve vergileri günceller. Önbelleği yeniden yükle her şeyi siler ve sunucudan yeniden indirir (müşteriler ve son siparişler dahil). Çevrimiçi bağlantı gerekir.",
+    "refreshCatalog": "Kataloğu yenile",
+    "reload": "Önbelleği yeniden yükle",
+    "orderTypes": "Sipariş türleri",
+    "categories": "Kategoriler",
+    "dishes": "Yemekler",
+    "modifierGroups": "Değiştirici grupları",
+    "groupDishes": "Grup yemekleri",
+    "floors": "Katlar",
+    "tables": "Masalar",
+    "kitchens": "Mutfaklar",
+    "paymentTypes": "Ödeme türleri",
+    "taxes": "Vergiler",
+    "catalogReloaded": "Katalog sunucudan yenilendi",
+    "catalogReloadFailed": "Katalog yenilenemedi",
+    "confirmCatalog": "Menü, katlar, ödemeler ve vergiler sunucudan yenilensin mi? Açık adisyonlar ve senkronize edilmemiş siparişler bu terminalde kalır.",
+    "reloaded": "Önbellek temizlendi ve sunucudan yeniden yüklendi",
+    "reloadFailed": "Önbellek yeniden yüklenemedi",
+    "confirm": "Yerel POS önbelleğini temizleyip sunucudan yeni bir kopya indirilsin mi?",
+    "confirmWithPending": "Atılacak {{count}} senkronize edilmemiş değişikliğiniz var. Yerel POS önbelleğini temizleyip sunucudan yeni bir kopya indirilsin mi?",
+    "offline": "Çevrimdışıyken önbellek yenilenemez",
+    "offlineHint": "Sunucuya bağlıyken kullanılabilir"
+  },
+  "serviceCharges": {
+    "title": "Servis ücretleri",
+    "updated": "Servis ücretleri güncellendi",
+    "saveDescription": "Servis ücretlerini kaydet"
+  },
+  "printers": {
+    "title": "Varsayılan yazıcılar",
+    "description": "Yazıcıları kullanıcıya veya bu terminale atayın. Sistem yazıcıları açıksa geçici, final, iade ve özet bu cihazın atamalarını kullanır. Teslimat her zaman kullanıcı veya genel ayarları kullanır.",
+    "loading": "Yazıcı ayarları yükleniyor…",
+    "useSystemPrinters": "Bu cihazda sistem yazıcılarını kullan",
+    "useSystemPrintersDescription": "Açıkken bu tarayıcı/terminal, oturum açmış kullanıcının yazıcıları yerine aşağıdaki sistem yazıcılarını kullanır (teslimat hariç).",
+    "systemTitle": "Sistem yazıcıları (bu cihaz)",
+    "systemDescription": "Yalnızca bu tarayıcıda saklanır. Paylaşılan terminallerde yakındaki yazıcılara yazdırmak için idealdir. Teslimat dahil değildir — kullanıcı veya genel kalır.",
+    "userTitle": "Kullanıcı yazıcıları",
+    "userDescription": "Oturum açmış kullanıcıya göre saklanır. Sistem yazıcıları kapalıyken ve her zaman teslimat için kullanılır.",
+    "tempPrint": "Geçici yazdırma yazıcıları",
+    "finalPrint": "Final yazdırma yazıcıları",
+    "refundPrint": "İade yazdırma yazıcıları",
+    "deliveryPrint": "Teslimat yazdırma yazıcıları",
+    "summaryPrint": "Özet yazdırma yazıcıları",
+    "selectPrinters": "Yazıcı seçin…",
+    "saving": "Kaydediliyor…",
+    "save": "Yazıcı ayarlarını kaydet",
+    "saveDescription": "Yazıcıları kaydet",
+    "loadFailed": "Yazıcı ayarları yüklenemedi",
+    "loginRequired": "Yazıcı ayarlarını kaydetmek için lütfen giriş yapın.",
+    "saved": "Yazıcı ayarları kaydedildi",
+    "saveFailed": "Yazıcı ayarları kaydedilemedi"
+  },
+  "printOptions": {
+    "title": "Yazdırma seçenekleri",
+    "description": "Her yazdırma türünün kaç fiziksel kopya üreteceğini ve sipariş başına geçici veya nihai faturaların yönetici onayı gerekmeden kaç kez yazdırılabileceğini ayarlayın.",
+    "copiesTitle": "Yazdırma türüne göre kopyalar",
+    "maxAttemptsTitle": "Sipariş başına maksimum yazdırma denemesi",
+    "unlimitedHint": "Sınırsız için maksimum denemeyi 0 yapın. Limit aşıldığında Yazdırma limitini geçersiz kıl yetkisine sahip bir yönetici onaylamalıdır.",
+    "copies": {
+      "temp": "Geçici fatura kopyaları",
+      "final": "Nihai fatura kopyaları",
+      "refund": "İade kopyaları",
+      "kitchen": "Mutfak / KOT kopyaları",
+      "delivery": "Teslimat kopyaları",
+      "summary": "Özet kopyaları"
+    },
+    "maxAttempts": {
+      "temp": "Maks. geçici fatura yazdırma",
+      "final": "Maks. nihai fatura yazdırma"
+    },
+    "updated": "Yazdırma seçenekleri güncellendi",
+    "saveDescription": "Yazdırma seçeneklerini kaydet"
+  },
+  "menus": {
+    "title": "Menü ayarları",
+    "activateMenus": "Menüleri etkinleştir",
+    "selectMenus": "Menü seçin…",
+    "loading": "Menü ayarları yükleniyor…",
+    "saving": "Kaydediliyor…",
+    "save": "Menü ayarlarını kaydet",
+    "saveDescription": "Menüleri kaydet",
+    "loadFailed": "Menü ayarları yüklenemedi",
+    "loginRequired": "Menü ayarlarını kaydetmek için lütfen giriş yapın.",
+    "saved": "Menü ayarları kaydedildi",
+    "saveFailed": "Menü ayarları kaydedilemedi"
+  },
+  "tableSelection": {
+    "title": "Menüden masa seçimini gizle",
+    "description": "Masa seçimini atlayın ve menüyü doğrudan açın. Yalnızca bu cihaza uygulanır. Paket servis tabanlı sipariş için uygundur"
+  },
+  "autoCheckClose": {
+    "title": "Otomatik adisyon kapatma",
+    "description": "Kapanış döngüsü bitiş saatinde açık masa adisyonlarını otomatik olarak kapatır. Teslimat siparişleri hariç tutulur. Kapanmadan 1 dakika önce bir uyarı görünür.",
+    "printOnClose": "Kapanışta final faturayı yazdır",
+    "paymentType": "Ödeme türü",
+    "paymentTypeRequired": "Otomatik kapatma etkinleştirildiğinde ödeme türü zorunludur",
+    "paymentTypeRequiredField": "Ödeme türü zorunludur",
+    "updated": "Otomatik adisyon kapatma ayarları güncellendi",
+    "saveDescription": "Otomatik adisyon kapatma ayarlarını kaydet"
+  },
+  "closingCycle": {
+    "title": "Kapanış döngüsü",
+    "description": "Döngü başlangıç ve bitiş saatini yapılandırın. Bitiş saati ertesi gün olabilir (örnek: 06:00 - 02:00).",
+    "startTime": "Başlangıç saati",
+    "endTime": "Bitiş saati",
+    "updated": "Kapanış döngüsü ayarları güncellendi",
+    "saveDescription": "Kapanış döngüsü ayarlarını kaydet"
+  },
+  "showInclusivePrices": {
+    "title": "Dahil fiyatları göster",
+    "description": "Etkinleştirildiğinde, ödeme ekranı, fişler ve kalem düzeyindeki raporlardaki satır tutarları, dahil vergi ile yapılandırılmış menü ürünleri için vergi dahil (brüt) fiyatı gösterir. Ürünler/ara toplam satırı vergiden hariç kalır, vergi kendi satırında gösterilmeye devam eder ve genel toplam değişmez. Hariç vergili ürünler etkilenmez. Bu yalnızca görüntüleme içindir; fiyatların nasıl saklandığını veya verginin nasıl hesaplandığını değiştirmez.",
+    "updated": "Dahil fiyat ayarları güncellendi",
+    "saveDescription": "Dahil fiyat ayarlarını kaydet"
+  },
+  "currencySymbol": {
+    "title": "Para birimi simgesi",
+    "description": "Uygulamadaki tutarların ve yazdırılan fişlerin yanında para birimi simgesinin görünüp görünmeyeceğini kontrol eder. Kapatıldığında yalnızca sayılar gösterilir (ör. Rs 1.250 yerine 1.250). Bu yalnızca görüntülemedir ve saklanan değerleri değiştirmez.",
+    "showInUi": "Ekranda göster",
+    "showOnReceipts": "Fişlerde göster",
+    "updated": "Para birimi simgesi ayarları güncellendi",
+    "saveDescription": "Para birimi simgesi ayarlarını kaydet"
+  },
+  "translateReceipts": {
+    "title": "Fişleri çevir",
+    "description": "Etkinleştirildiğinde, yazdırılan fişlerdeki sistem etiketleri (fiş başlıkları, Fatura#, Masa, Vergi, Toplam, mutfak fişleri ve özet) bu cihazın seçili dilini kullanır. Yazdırma ayarlarındaki özel üst/alt bilgi metni çevrilmez.",
+    "updated": "Fiş çeviri ayarları güncellendi",
+    "saveDescription": "Fiş çeviri ayarlarını kaydet"
+  },
+  "visibilityConfig": {
+    "title": "Ürün görünürlük ayarları",
+    "description": "Bu cihaz için hangi ürün sütunlarının gösterileceğini veya gizleneceğini ayarlayın. Yalnızca bu cihaza uygulanır.",
+    "menu": "Menü",
+    "enableDishSearch": "Menüde yemek numarası aramasını etkinleştir",
+    "showDishNumber": "Menü kartlarında yemek numaralarını göster",
+    "dishSearchType": "Yemek arama modu",
+    "dishSearchTypeNumber": "Yalnızca numara",
+    "dishSearchTypeBoth": "Ad ve numara",
+    "cart": "Sepet",
+    "showTotalsInCart": "Sepetteki ürünlerin toplamlarını göster",
+    "orders": "Siparişler",
+    "showTotalInOrderCard": "Sipariş kartındaki ürünlerin toplamlarını göster",
+    "showGroupsInOrderCard": "Sipariş kartındaki ürün gruplarını göster",
+    "showQuantityInOrderCard": "Sipariş kartındaki ürün miktarını göster",
+    "showPriceInOrderCard": "Sipariş kartındaki ürün fiyatını göster",
+    "showModifiersInOrderCard": "Sipariş kartındaki ürün değiştiricilerini göster",
+    "showModifierPriceInOrderCard": "Sipariş kartındaki değiştirici fiyatını göster",
+    "showTotalInPaymentCard": "Ödeme kutusundaki ürünlerin toplamlarını göster"
+  },
+  "inventory": {
+    "title": "Inventory",
+    "description": "Ledger cutover and optional advanced tracking. Keep batch/expiry off unless you need them.",
+    "ledgerEnabled": "Use inventory ledger (single source of truth)",
+    "ledgerHint": "Enable only after running the ledger backfill and confirming reconciliation.",
+    "costingMethod": "Costing method",
+    "costing": {
+      "average": "Weighted Average",
+      "fifo": "FIFO",
+      "fefo": "FEFO"
+    },
+    "enableBatchTracking": "Enable batch tracking",
+    "enableExpiryTracking": "Enable expiry tracking",
+    "enableManufacturingDate": "Enable manufacturing dates",
+    "requireBatchSelection": "Require batch selection on issues",
+    "updated": "Inventory settings updated",
+    "save": "Save",
+    "saveDescription": "Save inventory settings",
+    "landedCostsSection": "Purchase cost allocation",
+    "enableLandedCosts": "Enable landed costs (shipping, freight, etc.)",
+    "enablePurchaseDiscounts": "Enable purchase discounts in inventory cost",
+    "enablePurchaseTaxes": "Enable purchase taxes in inventory cost",
+    "defaultAllocationMethod": "Default allocation method",
+    "allocation": {
+      "by_value": "By value",
+      "by_quantity": "By quantity",
+      "equal": "Equal"
+    },
+    "defaultPurchaseTaxBehavior": "Default purchase tax behavior",
+    "defaultPurchaseTaxBehaviorHint": "Non-recoverable tax is capitalized into inventory. Recoverable tax is ignored for valuation.",
+    "taxBehavior": {
+      "non_recoverable": "Non-recoverable (capitalize)",
+      "recoverable": "Recoverable (ignore for inventory)"
+    }
+  },
+  "whatsNew": {
+    "title": "Yenilikler",
+    "description": "Bu uygulama için sürüm notlarını ve son güncellemeleri görüntüleyin.",
+    "open": "Yenilikleri aç",
+    "dismiss": "Anladım",
+    "dialogTitle": "Yenilikler",
+    "previousReleases": "Önceki güncellemeler",
+    "dateLabel": "Güncellendi {{date}}"
+  },
+  "sessionSecurity": {
+    "title": "Oturum güvenliği",
+    "description": "Bu kullanıcıyı bir süre işlem yapılmadığında otomatik kilitle veya çıkış yaptır. Bir eylem seçin.",
+    "idleMinutes": "Boşta kalma dakikası (örn. 0,1 ≈ 6 saniye)",
+    "action": "Eylem",
+    "actionLock": "Kilitle",
+    "actionLogout": "Çıkış yap",
+    "updated": "Oturum güvenliği ayarları güncellendi",
+    "saveDescription": "Oturum güvenliği ayarlarını kaydet",
+    "loginRequired": "Oturum güvenliğini kaydetmek için giriş yapmış olmalısınız"
+  },
+  "autoClockOut": {
+    "title": "Otomatik mesai çıkışı",
+    "description": "Vardiya bittiğinde ve/veya sabit bir günlük saatte otomatik mesai çıkışı. Varsa planlı vardiyayı, yoksa atanmış vardiyayı kullanır. Tüm kullanıcılara uygulanır.",
+    "onShiftEnd": "Vardiya bitince çıkış yap",
+    "onDefinedTime": "Belirlenen saatte çıkış yap",
+    "definedTime": "Çıkış saati",
+    "triggerRequired": "Otomatik çıkış açıkken vardiya bitişi ve/veya tanımlı saat etkinleştirin",
+    "updated": "Otomatik mesai çıkışı ayarları güncellendi",
+    "saveDescription": "Otomatik mesai çıkışı ayarlarını kaydet"
+  },
+  "numberPolicy": {
+    "title": "Fatura numaraları",
+    "description": "POS fatura numaralarının nasıl üretileceğini, sıfırlanacağını ve biçimleneceğini seçin. Tam sayı mali açıdan güvenli kalır; görünen metin atamada sabitlenir. Kaydettikten sonra tüm kasaları senkronize edin.",
+    "preset": "Ön ayar",
+    "mintLabel": "Üretim",
+    "resetLabel": "Sıfırlama",
+    "scopeLabel": "Kapsam",
+    "pendingModeLabel": "Bekleyen etiket",
+    "template": "Şablon",
+    "prefix": "Önek",
+    "suffix": "Sonek",
+    "branchCode": "Şube kodu",
+    "terminalCode": "Bu terminalin kodu",
+    "startAt": "Başlangıç",
+    "pad": "Sıfır doldurma",
+    "pendingMin": "Bekleyen min karakter",
+    "pendingMax": "Bekleyen max karakter",
+    "preview": "Önizleme",
+    "gapWarning": "Bu ön ayar restoranda boşluklar oluşturabilir ve sürekli sıra isteyen mali otoriteler için güvensizdir.",
+    "acknowledgeGaps": "Fatura numaralarında boşluk oluşabileceğini anlıyorum",
+    "ackRequired": "Kaydetmeden önce boşluk uyarısını onaylayın",
+    "updated": "Fatura numarası politikası güncellendi",
+    "saveDescription": "Fatura numarası politikasını kaydet",
+    "presets": {
+      "date_reset": "Date reset (recommended)",
+      "global": "Global sequential",
+      "period": "Period reset (year/month)",
+      "branch": "Branch sequential",
+      "terminal": "Terminal sequential",
+      "prefix": "Prefix / suffix",
+      "composite": "Composite",
+      "pool": "Range / pool",
+      "hybrid": "Hybrid online + offline pool",
+      "fiscal_plus_posr": "Fiscal + POSR display",
+      "provider_defined": "Provider-defined (store only)"
+    },
+    "mint": {
+      "gateway": "Gateway (shared)",
+      "terminal": "Terminal pool",
+      "hybrid": "Hybrid"
+    },
+    "reset": {
+      "never": "Never",
+      "day": "Each day",
+      "month": "Each month",
+      "year": "Each year"
+    },
+    "scope": {
+      "restaurant": "Restaurant",
+      "branch": "Branch",
+      "terminal": "Terminal"
+    },
+    "pendingMode": {
+      "random": "Random code",
+      "blank": "Blank until sync"
+    },
+    "help": {
+      "date_reset": "Pros: restaurant-wide 1,2,3… each day; fiscal-safe. Cons: offline checks show a temporary code until sync.",
+      "global": "Pros: simple forever sequence (1001, 1002…). Cons: never resets; numbers grow forever.",
+      "period": "Pros: yearly/monthly documents look tidy. Cons: pick month vs year carefully.",
+      "branch": "Pros: LHR-001 style labels. Cons: no multi-branch org yet — one configured branch code per restaurant.",
+      "terminal": "Pros: each till has its own sequence. Cons: gaps across the restaurant; fiscal-unsafe.",
+      "prefix": "Pros: INV-001 style formatting on any mint/reset. Cons: cosmetic only; fiscal still uses the integer.",
+      "composite": "Pros: LHR-T02-2026-00125 from tokens. Cons: longer labels; fiscal still uses the integer.",
+      "pool": "Pros: works fully offline with reserved ints. Cons: the 200-block jump problem; fiscal-unsafe.",
+      "hybrid": "Pros: offline creates still get ints. Cons: leftover reserved numbers become holes after reconnect.",
+      "fiscal_plus_posr": "Pros: POS display plus authority fiscal number. Cons: two numbers on a receipt is an evasion risk — show fiscal when present.",
+      "provider_defined": "Pros: POSR stores what FBR/PRA return. Cons: not a POSR minter — use with fiscal integrations."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "tabs": {
+    "providers": "Fornitori",
+    "configuration": "Configurazione",
+    "health": "Stato",
+    "queue": "Coda"
+  },
+  "title": "Integrazioni",
+  "description": "Gestisci installazione fornitori, configurazione, stato e lavori in coda.",
+  "configure": "Configura",
+  "provider": "Fornitore",
+  "saveConfiguration": "Salva configurazione",
+  "configurationSaved": "Configurazione integrazione aggiornata",
+  "noPendingJobs": "Nessun lavoro in sospeso.",
+  "security": {
+    "accessTab": "Accedi a {{module}}",
+    "saveConfiguration": "Salva configurazione integrazione",
+    "openConfiguration": "Apri configurazione integrazione",
+    "toggleProvider": "Abilita o disabilita il fornitore di integrazione",
+    "connect": "Collega il fornitore di integrazione",
+    "disconnect": "Disconnetti il fornitore di integrazione",
+    "initialSync": "Esegui sincronizzazione iniziale integrazione"
+  },
+  "fields": {
+    "status": "Stato",
+    "auth": "Autenticazione",
+    "failedJobs": "Lavori falliti",
+    "action": "Azione",
+    "attempts": "Tentativi",
+    "created": "Creato",
+    "updated": "Aggiornato",
+    "nextRun": "Prossima esecuzione",
+    "error": "Errore",
+    "order": "Ordine"
+  },
+  "enabled": "Abilitato",
+  "disabled": "Disabilitato",
+  "enableProvider": "Abilita",
+  "disableProvider": "Disabilita",
+  "providerEnabled": "Fornitore abilitato",
+  "providerDisabled": "Fornitore disabilitato",
+  "enableFailed": "Impossibile aggiornare lo stato del fornitore",
+  "status": {
+    "Pending": "In sospeso",
+    "Running": "In esecuzione",
+    "Waiting": "In attesa",
+    "Completed": "Completato",
+    "Failed": "Non riuscito",
+    "Cancelled": "Annullato",
+    "DeadLetter": "Fallito definitivamente"
+  },
+  "connect": "Connetti",
+  "disconnect": "Disconnetti",
+  "reconnect": "Riconnetti",
+  "initialSync": "Avvia sincronizzazione iniziale",
+  "connectionRequired": "Connetti prima un'azienda QuickBooks.",
+  "connectedTo": "Connesso a {{company}}",
+  "notConnected": "Non connesso",
+  "connecting": "Connessione in corso...",
+  "disconnecting": "Disconnessione in corso...",
+  "syncing": "Sincronizzazione in corso...",
+  "syncComplete": "Sincronizzazione completata — {{count}} entità importate.",
+  "syncFailed": "Sincronizzazione fallita",
+  "lastSync": "Ultima sincronizzazione",
+  "nextSync": "Prossima sincronizzazione",
+  "syncProgress": "Avanzamento sincronizzazione",
+  "failedItems": "Elementi falliti",
+  "oauth": {
+    "start": "Autorizza con QuickBooks",
+    "callbackError": "Callback OAuth fallito. Riprova.",
+    "disconnected": "Disconnesso da QuickBooks"
+  },
+  "queue": {
+    "retry": "Riprova",
+    "retrySuccess": "Processo riprovato con successo.",
+    "retryFailed": "Nuovo tentativo non riuscito.",
+    "retryFailedWithError": "Nuovo tentativo non riuscito: {{error}}",
+    "retryAlreadyCompleted": "L'invio fiscale era già completato — processo in coda rimosso.",
+    "retryInvoicePending": "Numero fattura non ancora pronto — riprovare dopo la sincronizzazione.",
+    "retryOrderNotFound": "Ordine non trovato per il nuovo tentativo fiscale.",
+    "retryProviderDisabled": "Il provider è disabilitato."
+  }
+}

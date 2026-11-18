@@ -1,0 +1,345 @@
+{
+  "language": {
+    "title": "Idioma",
+    "description": "Elija el idioma de visualización para este dispositivo. Solo se aplica a este dispositivo.",
+    "changed": "Idioma actualizado"
+  },
+  "direction": {
+    "title": "Dirección del texto",
+    "description": "Elija el diseño de izquierda a derecha o de derecha a izquierda para este dispositivo.",
+    "ltr": "LTR",
+    "rtl": "RTL"
+  },
+  "theme": {
+    "title": "Apariencia",
+    "description": "Elija claro, oscuro o seguir la configuración del sistema de este dispositivo. Solo se aplica a este dispositivo.",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema",
+    "brandTitle": "Colores de marca",
+    "brandDescription": "Elija un paquete de colores para este dispositivo. La interfaz, botones, selectores y gráficos se actualizan de inmediato.",
+    "brand": {
+      "classic": "Clásico",
+      "ocean": "Océano",
+      "forest": "Bosque",
+      "cream": "Crema",
+      "ruby": "Rubí",
+      "sapphire": "Zafiro",
+      "custom": "Personalizado"
+    },
+    "customDescription": "Elige un color primario. Las superficies, bordes y acentos se generan a partir de él para el modo claro y oscuro.",
+    "customPrimary": "Color primario",
+    "customHex": "Hex",
+    "customApply": "Aplicar",
+    "customPreview": "Vista previa",
+    "colorCanvas": "Fondo",
+    "colorSurface": "Superficie",
+    "colorForeground": "Texto",
+    "colorPrimary": "Primario",
+    "colorBorder": "Borde"
+  },
+  "branding": {
+    "title": "Marca",
+    "description": "Suba el logo de su restaurante para mostrarlo en la pantalla de inicio de sesión debajo del símbolo POSR.",
+    "logo": "Logo de la marca",
+    "logoHint": "PNG, JPEG, GIF o WebP. Máx. 500 KB.",
+    "upload": "Subir logo",
+    "remove": "Quitar logo",
+    "preview": "Vista previa del logo",
+    "updated": "Configuración de marca actualizada",
+    "saveDescription": "Guardar configuración de marca",
+    "tooLarge": "El archivo supera el tamaño máximo de {{size}}.",
+    "invalidType": "Use una imagen PNG, JPEG, GIF o WebP.",
+    "readFailed": "No se pudo leer el archivo de imagen",
+    "saveFailed": "No se pudo guardar la configuración de marca"
+  },
+  "touch": {
+    "title": "Teclado en pantalla",
+    "description": "Habilite o deshabilite el teclado en pantalla. Solo se aplica a este dispositivo."
+  },
+  "cache": {
+    "title": "Caché",
+    "description": "Datos POS locales en este terminal. Actualizar catálogo refresca menú, pisos, pagos e impuestos sin tocar cuentas abiertas. Recargar caché borra todo y vuelve a descargar del servidor (incluidos clientes y pedidos recientes). Requiere conexión.",
+    "refreshCatalog": "Actualizar catálogo",
+    "reload": "Recargar caché",
+    "orderTypes": "Tipos de pedido",
+    "categories": "Categorías",
+    "dishes": "Platos",
+    "modifierGroups": "Grupos de modificadores",
+    "groupDishes": "Platos de grupo",
+    "floors": "Plantas",
+    "tables": "Mesas",
+    "kitchens": "Cocinas",
+    "paymentTypes": "Tipos de pago",
+    "taxes": "Impuestos",
+    "catalogReloaded": "Catálogo actualizado desde el servidor",
+    "catalogReloadFailed": "Error al actualizar el catálogo",
+    "confirmCatalog": "¿Actualizar menú, pisos, pagos e impuestos desde el servidor? Las cuentas abiertas y los pedidos no sincronizados permanecen en este terminal.",
+    "reloaded": "Caché borrada y recargada desde el servidor",
+    "reloadFailed": "Error al recargar la caché",
+    "confirm": "¿Borrar la caché POS local y descargar una copia nueva del servidor?",
+    "confirmWithPending": "Tiene {{count}} cambio(s) sin sincronizar que se descartarán. ¿Borrar la caché POS local y descargar una copia nueva del servidor?",
+    "offline": "No se puede actualizar la caché sin conexión",
+    "offlineHint": "Disponible cuando hay conexión con el servidor"
+  },
+  "serviceCharges": {
+    "title": "Cargos por servicio",
+    "updated": "Cargos por servicio actualizados",
+    "saveDescription": "Guardar cargos por servicio"
+  },
+  "printers": {
+    "title": "Impresoras predeterminadas",
+    "description": "Asigne impresoras por usuario o para este terminal. Con impresoras del sistema activadas, temporal, final, reembolso y resumen usan las asignaciones de este dispositivo. La entrega siempre usa ajustes de usuario o globales.",
+    "loading": "Cargando configuración de impresoras…",
+    "useSystemPrinters": "Usar impresoras del sistema en este dispositivo",
+    "useSystemPrintersDescription": "Si está activado, este navegador/terminal usa las impresoras del sistema de abajo en lugar de las del usuario conectado (excepto entrega).",
+    "systemTitle": "Impresoras del sistema (este dispositivo)",
+    "systemDescription": "Guardadas solo en este navegador. Ideal para terminales compartidos para imprimir en impresoras cercanas. La entrega no se incluye: sigue siendo de usuario o global.",
+    "userTitle": "Impresoras de usuario",
+    "userDescription": "Guardadas por usuario conectado. Se usan cuando las del sistema están desactivadas, y siempre para entrega.",
+    "tempPrint": "Impresoras para impresión temporal",
+    "finalPrint": "Impresoras para impresión final",
+    "refundPrint": "Impresoras para impresión de reembolso",
+    "deliveryPrint": "Impresoras para impresión de entrega",
+    "summaryPrint": "Impresoras para impresión de resumen",
+    "selectPrinters": "Seleccionar impresoras…",
+    "saving": "Guardando…",
+    "save": "Guardar configuración de impresoras",
+    "saveDescription": "Guardar impresoras",
+    "loadFailed": "Error al cargar la configuración de impresoras",
+    "loginRequired": "Inicie sesión para guardar la configuración de impresoras.",
+    "saved": "Configuración de impresoras guardada",
+    "saveFailed": "Error al guardar la configuración de impresoras"
+  },
+  "printOptions": {
+    "title": "Opciones de impresión",
+    "description": "Configure cuántas copias físicas produce cada tipo de impresión y cuántas veces se pueden imprimir facturas temporales o finales por pedido antes de requerir aprobación del gerente.",
+    "copiesTitle": "Copias por tipo de impresión",
+    "maxAttemptsTitle": "Máximo de intentos de impresión por pedido",
+    "unlimitedHint": "Establezca los intentos máximos en 0 para ilimitado. Al alcanzar el límite, un gerente con permiso Anular límite de impresión debe aprobar.",
+    "copies": {
+      "temp": "Copias de factura temporal",
+      "final": "Copias de factura final",
+      "refund": "Copias de reembolso",
+      "kitchen": "Copias de cocina / KOT",
+      "delivery": "Copias de entrega",
+      "summary": "Copias de resumen"
+    },
+    "maxAttempts": {
+      "temp": "Máx. impresiones factura temporal",
+      "final": "Máx. impresiones factura final"
+    },
+    "updated": "Opciones de impresión actualizadas",
+    "saveDescription": "Guardar opciones de impresión"
+  },
+  "menus": {
+    "title": "Configuración de menús",
+    "activateMenus": "Activar menús",
+    "selectMenus": "Seleccionar menús…",
+    "loading": "Cargando configuración de menús…",
+    "saving": "Guardando…",
+    "save": "Guardar configuración de menús",
+    "saveDescription": "Guardar menús",
+    "loadFailed": "Error al cargar la configuración de menús",
+    "loginRequired": "Inicie sesión para guardar la configuración de menús.",
+    "saved": "Configuración de menús guardada",
+    "saveFailed": "Error al guardar la configuración de menús"
+  },
+  "tableSelection": {
+    "title": "Ocultar selección de mesa en el menú",
+    "description": "Omitir la selección de mesa y abrir el menú directamente. Solo se aplica a este dispositivo. Adecuado para pedidos para llevar"
+  },
+  "autoCheckClose": {
+    "title": "Cierre automático de cuentas",
+    "description": "Cerrar automáticamente las cuentas abiertas al final del ciclo de cierre. Los pedidos de entrega quedan excluidos. Aparece una advertencia 1 minuto antes del cierre.",
+    "printOnClose": "Imprimir factura final al cerrar",
+    "paymentType": "Tipo de pago",
+    "paymentTypeRequired": "El tipo de pago es obligatorio cuando el cierre automático está habilitado",
+    "paymentTypeRequiredField": "El tipo de pago es obligatorio",
+    "updated": "Configuración de cierre automático de cuentas actualizada",
+    "saveDescription": "Guardar configuración de cierre automático de cuentas"
+  },
+  "closingCycle": {
+    "title": "Ciclo de cierre",
+    "description": "Configure la hora de inicio y fin del ciclo. La hora de fin puede ser al día siguiente (ejemplo: 06:00 a 02:00).",
+    "startTime": "Hora de inicio",
+    "endTime": "Hora de fin",
+    "updated": "Configuración del ciclo de cierre actualizada",
+    "saveDescription": "Guardar configuración del ciclo de cierre"
+  },
+  "showInclusivePrices": {
+    "title": "Mostrar precios inclusivos",
+    "description": "Cuando está activado, los importes de línea en la pantalla de pago, los recibos y los informes por artículo muestran el precio con impuestos incluidos (bruto) para los artículos del menú configurados con impuesto inclusivo. La fila de Artículos/subtotal permanece sin impuestos, el impuesto sigue mostrándose en su propia fila y el total general no cambia. Los artículos con impuesto exclusivo no se ven afectados. Esto es solo de visualización y no cambia cómo se almacenan los precios ni cómo se calcula el impuesto.",
+    "updated": "Configuración de precios inclusivos actualizada",
+    "saveDescription": "Guardar configuración de precios inclusivos"
+  },
+  "currencySymbol": {
+    "title": "Símbolo de moneda",
+    "description": "Controla si el símbolo de moneda aparece junto a los importes en la aplicación y en los recibos impresos. Al desactivarlo solo se muestran números (p. ej. 1.250 en lugar de Rs 1.250). Es solo de visualización y no cambia los valores almacenados.",
+    "showInUi": "Mostrar en pantalla",
+    "showOnReceipts": "Mostrar en recibos",
+    "updated": "Configuración del símbolo de moneda actualizada",
+    "saveDescription": "Guardar configuración del símbolo de moneda"
+  },
+  "translateReceipts": {
+    "title": "Traducir recibos",
+    "description": "Cuando está activado, las etiquetas del sistema en los recibos impresos (títulos, factura, mesa, impuesto, total, tickets de cocina y resumen) usan el idioma seleccionado en este dispositivo. El texto personalizado de encabezado y pie de las configuraciones de impresión no se traduce.",
+    "updated": "Configuración de traducción de recibos actualizada",
+    "saveDescription": "Guardar configuración de traducción de recibos"
+  },
+  "visibilityConfig": {
+    "title": "Configuración de visibilidad de artículos",
+    "description": "Actualice la configuración de este dispositivo para mostrar u ocultar las columnas de los artículos. Solo se aplica a este dispositivo.",
+    "menu": "Menú",
+    "enableDishSearch": "Habilitar búsqueda por número de plato en el menú",
+    "showDishNumber": "Mostrar números de plato en las tarjetas del menú",
+    "dishSearchType": "Modo de búsqueda de platos",
+    "dishSearchTypeNumber": "Solo número",
+    "dishSearchTypeBoth": "Nombre y número",
+    "cart": "Carrito",
+    "showTotalsInCart": "Mostrar totales de artículos en el carrito",
+    "orders": "Pedidos",
+    "showTotalInOrderCard": "Mostrar totales de artículos en la tarjeta de pedido",
+    "showGroupsInOrderCard": "Mostrar grupos de artículos en la tarjeta de pedido",
+    "showQuantityInOrderCard": "Mostrar cantidad de artículos en la tarjeta de pedido",
+    "showPriceInOrderCard": "Mostrar precio de artículos en la tarjeta de pedido",
+    "showModifiersInOrderCard": "Mostrar modificadores de artículos en la tarjeta de pedido",
+    "showModifierPriceInOrderCard": "Mostrar precio de modificadores en la tarjeta de pedido",
+    "showTotalInPaymentCard": "Mostrar totales de artículos en el cuadro de pago"
+  },
+  "inventory": {
+    "title": "Inventario",
+    "description": "Cambio al libro mayor y seguimiento avanzado opcional. Mantenga lote/caducidad desactivados salvo que los necesite.",
+    "ledgerEnabled": "Usar libro de inventario (única fuente de verdad)",
+    "ledgerHint": "Active solo después del backfill y la conciliación.",
+    "costingMethod": "Método de costeo",
+    "costing": {
+      "average": "Promedio ponderado",
+      "fifo": "FIFO",
+      "fefo": "FEFO"
+    },
+    "enableBatchTracking": "Activar seguimiento de lotes",
+    "enableExpiryTracking": "Activar seguimiento de caducidad",
+    "enableManufacturingDate": "Activar fechas de fabricación",
+    "requireBatchSelection": "Requerir selección de lote en salidas",
+    "updated": "Ajustes de inventario actualizados",
+    "save": "Guardar",
+    "saveDescription": "Guardar ajustes de inventario",
+    "landedCostsSection": "Asignación de costos de compra",
+    "enableLandedCosts": "Activar costos adicionales (envío, flete, etc.)",
+    "enablePurchaseDiscounts": "Incluir descuentos de compra en el costo de inventario",
+    "enablePurchaseTaxes": "Incluir impuestos de compra en el costo de inventario",
+    "defaultAllocationMethod": "Método de asignación predeterminado",
+    "allocation": {
+      "by_value": "Por valor",
+      "by_quantity": "Por cantidad",
+      "equal": "Igual"
+    },
+    "defaultPurchaseTaxBehavior": "Comportamiento fiscal de compra predeterminado",
+    "defaultPurchaseTaxBehaviorHint": "El impuesto no recuperable se capitaliza. El impuesto recuperable se ignora para la valoración.",
+    "taxBehavior": {
+      "non_recoverable": "No recuperable (capitalizar)",
+      "recoverable": "Recuperable (ignorar para inventario)"
+    }
+  },
+  "whatsNew": {
+    "title": "Novedades",
+    "description": "Consulta las notas de la versión y las actualizaciones recientes de esta aplicación.",
+    "open": "Abrir novedades",
+    "dismiss": "Entendido",
+    "dialogTitle": "Novedades",
+    "previousReleases": "Actualizaciones anteriores",
+    "dateLabel": "Actualizado {{date}}"
+  },
+  "sessionSecurity": {
+    "title": "Seguridad de sesión",
+    "description": "Bloquear o cerrar sesión automáticamente tras un período de inactividad. Elija una acción.",
+    "idleMinutes": "Minutos de inactividad (p. ej. 0,1 ≈ 6 segundos)",
+    "action": "Acción",
+    "actionLock": "Bloquear",
+    "actionLogout": "Cerrar sesión",
+    "updated": "Configuración de seguridad de sesión actualizada",
+    "saveDescription": "Guardar configuración de seguridad de sesión",
+    "loginRequired": "Debe iniciar sesión para guardar la seguridad de sesión"
+  },
+  "autoClockOut": {
+    "title": "Salida automática",
+    "description": "Fichar salida automáticamente al finalizar el turno y/o a una hora fija diaria. Usa el turno programado si existe; si no, el turno asignado. Aplica a todos los usuarios.",
+    "onShiftEnd": "Fichar salida al finalizar el turno",
+    "onDefinedTime": "Fichar salida a una hora definida",
+    "definedTime": "Hora de salida",
+    "triggerRequired": "Active el fin de turno y/o una hora definida cuando la salida automática esté activada",
+    "updated": "Configuración de salida automática actualizada",
+    "saveDescription": "Guardar configuración de salida automática"
+  },
+  "numberPolicy": {
+    "title": "Números de factura",
+    "description": "Elija cómo se generan, reinician y formatean los números de factura del POS. El entero sigue siendo fiscalmente seguro; la cadena de visualización se fija al asignar. Sincronice en todos los terminales tras guardar.",
+    "preset": "Preajuste",
+    "mintLabel": "Emisión",
+    "resetLabel": "Reinicio",
+    "scopeLabel": "Ámbito",
+    "pendingModeLabel": "Etiqueta pendiente",
+    "template": "Plantilla",
+    "prefix": "Prefijo",
+    "suffix": "Sufijo",
+    "branchCode": "Código de sucursal",
+    "terminalCode": "Código de este terminal",
+    "startAt": "Empezar en",
+    "pad": "Relleno con ceros",
+    "pendingMin": "Mín. caracteres pendiente",
+    "pendingMax": "Máx. caracteres pendiente",
+    "preview": "Vista previa",
+    "gapWarning": "Este preajuste puede crear huecos en el restaurante y no es seguro para autoridades fiscales que exigen secuencia continua.",
+    "acknowledgeGaps": "Entiendo que esto puede crear huecos en las facturas",
+    "ackRequired": "Confirme la advertencia de huecos antes de guardar",
+    "updated": "Política de números de factura actualizada",
+    "saveDescription": "Guardar política de números de factura",
+    "presets": {
+      "date_reset": "Date reset (recommended)",
+      "global": "Global sequential",
+      "period": "Period reset (year/month)",
+      "branch": "Branch sequential",
+      "terminal": "Terminal sequential",
+      "prefix": "Prefix / suffix",
+      "composite": "Composite",
+      "pool": "Range / pool",
+      "hybrid": "Hybrid online + offline pool",
+      "fiscal_plus_posr": "Fiscal + POSR display",
+      "provider_defined": "Provider-defined (store only)"
+    },
+    "mint": {
+      "gateway": "Gateway (shared)",
+      "terminal": "Terminal pool",
+      "hybrid": "Hybrid"
+    },
+    "reset": {
+      "never": "Never",
+      "day": "Each day",
+      "month": "Each month",
+      "year": "Each year"
+    },
+    "scope": {
+      "restaurant": "Restaurant",
+      "branch": "Branch",
+      "terminal": "Terminal"
+    },
+    "pendingMode": {
+      "random": "Random code",
+      "blank": "Blank until sync"
+    },
+    "help": {
+      "date_reset": "Pros: restaurant-wide 1,2,3… each day; fiscal-safe. Cons: offline checks show a temporary code until sync.",
+      "global": "Pros: simple forever sequence (1001, 1002…). Cons: never resets; numbers grow forever.",
+      "period": "Pros: yearly/monthly documents look tidy. Cons: pick month vs year carefully.",
+      "branch": "Pros: LHR-001 style labels. Cons: no multi-branch org yet — one configured branch code per restaurant.",
+      "terminal": "Pros: each till has its own sequence. Cons: gaps across the restaurant; fiscal-unsafe.",
+      "prefix": "Pros: INV-001 style formatting on any mint/reset. Cons: cosmetic only; fiscal still uses the integer.",
+      "composite": "Pros: LHR-T02-2026-00125 from tokens. Cons: longer labels; fiscal still uses the integer.",
+      "pool": "Pros: works fully offline with reserved ints. Cons: the 200-block jump problem; fiscal-unsafe.",
+      "hybrid": "Pros: offline creates still get ints. Cons: leftover reserved numbers become holes after reconnect.",
+      "fiscal_plus_posr": "Pros: POS display plus authority fiscal number. Cons: two numbers on a receipt is an evasion risk — show fiscal when present.",
+      "provider_defined": "Pros: POSR stores what FBR/PRA return. Cons: not a POSR minter — use with fiscal integrations."
+    }
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "language": {
+    "title": "Язык",
+    "description": "Выберите язык интерфейса для этого устройства. Применяется только к этому устройству.",
+    "changed": "Язык обновлён"
+  },
+  "direction": {
+    "title": "Направление текста",
+    "description": "Выберите направление макета слева направо или справа налево для этого устройства.",
+    "ltr": "LTR",
+    "rtl": "RTL"
+  },
+  "theme": {
+    "title": "Оформление",
+    "description": "Выберите светлую, тёмную тему или следовать системной настройке этого устройства. Применяется только к этому устройству.",
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "system": "Системная",
+    "brandTitle": "Цвета бренда",
+    "brandDescription": "Выберите палитру для этого устройства. Оболочка, кнопки, списки и графики обновляются сразу.",
+    "brand": {
+      "classic": "Классика",
+      "ocean": "Океан",
+      "forest": "Лес",
+      "cream": "Крем",
+      "ruby": "Рубин",
+      "sapphire": "Сапфир",
+      "custom": "Свой"
+    },
+    "customDescription": "Выберите основной цвет. Поверхности, границы и акценты строятся из него для светлой и тёмной темы.",
+    "customPrimary": "Основной цвет",
+    "customHex": "Hex",
+    "customApply": "Применить",
+    "customPreview": "Просмотр",
+    "colorCanvas": "Фон",
+    "colorSurface": "Поверхность",
+    "colorForeground": "Текст",
+    "colorPrimary": "Основной",
+    "colorBorder": "Граница"
+  },
+  "branding": {
+    "title": "Брендинг",
+    "description": "Загрузите логотип ресторана — он появится на экране входа под знаком POSR.",
+    "logo": "Логотип бренда",
+    "logoHint": "PNG, JPEG, GIF или WebP. Макс. 500 КБ.",
+    "upload": "Загрузить логотип",
+    "remove": "Удалить логотип",
+    "preview": "Предпросмотр логотипа",
+    "updated": "Настройки брендинга обновлены",
+    "saveDescription": "Сохранить настройки брендинга",
+    "tooLarge": "Файл превышает максимальный размер {{size}}.",
+    "invalidType": "Используйте изображение PNG, JPEG, GIF или WebP.",
+    "readFailed": "Не удалось прочитать файл изображения",
+    "saveFailed": "Не удалось сохранить настройки брендинга"
+  },
+  "touch": {
+    "title": "Экранная клавиатура",
+    "description": "Включить или отключить экранную клавиатуру. Применяется только к этому устройству."
+  },
+  "cache": {
+    "title": "Кэш",
+    "description": "Локальные данные POS на этом терминале. Обновление каталога обновляет меню, этажи, оплаты и налоги, не затрагивая открытые счета. Перезагрузка кэша очищает всё и скачивает заново с сервера (включая клиентов и недавние заказы). Требуется подключение.",
+    "refreshCatalog": "Обновить каталог",
+    "reload": "Перезагрузить кэш",
+    "orderTypes": "Типы заказов",
+    "categories": "Категории",
+    "dishes": "Блюда",
+    "modifierGroups": "Группы модификаторов",
+    "groupDishes": "Групповые блюда",
+    "floors": "Залы",
+    "tables": "Столы",
+    "kitchens": "Кухни",
+    "paymentTypes": "Типы оплаты",
+    "taxes": "Налоги",
+    "catalogReloaded": "Каталог обновлён с сервера",
+    "catalogReloadFailed": "Не удалось обновить каталог",
+    "confirmCatalog": "Обновить меню, этажи, оплаты и налоги с сервера? Открытые счета и несинхронизированные заказы останутся на этом терминале.",
+    "reloaded": "Кэш очищен и перезагружен с сервера",
+    "reloadFailed": "Не удалось перезагрузить кэш",
+    "confirm": "Очистить локальный кэш POS и загрузить свежую копию с сервера?",
+    "confirmWithPending": "У вас {{count}} несинхронизированных изменений, которые будут отброшены. Очистить локальный кэш POS и загрузить свежую копию с сервера?",
+    "offline": "Нельзя обновить кэш без подключения",
+    "offlineHint": "Доступно при подключении к серверу"
+  },
+  "serviceCharges": {
+    "title": "Сервисный сбор",
+    "updated": "Сервисный сбор обновлён",
+    "saveDescription": "Сохранить сервисный сбор"
+  },
+  "printers": {
+    "title": "Принтеры по умолчанию",
+    "description": "Назначайте принтеры для пользователя или для этого терминала. При включённых системных принтерах предварительный, финальный, возвратный и сводный чеки используют назначения этого устройства. Доставка всегда использует пользовательские или глобальные настройки.",
+    "loading": "Загрузка настроек принтеров…",
+    "useSystemPrinters": "Использовать системные принтеры на этом устройстве",
+    "useSystemPrintersDescription": "Если включено, этот браузер/терминал использует системные принтеры ниже вместо принтеров вошедшего пользователя (кроме доставки).",
+    "systemTitle": "Системные принтеры (это устройство)",
+    "systemDescription": "Хранятся только в этом браузере. Удобно для общих терминалов, чтобы печатать на ближайших принтерах. Доставка не входит — остаётся пользовательской или глобальной.",
+    "userTitle": "Принтеры пользователя",
+    "userDescription": "Хранятся для каждого вошедшего пользователя. Используются, когда системные принтеры выключены, и всегда для доставки.",
+    "tempPrint": "Принтеры для предварительного чека",
+    "finalPrint": "Принтеры для финального чека",
+    "refundPrint": "Принтеры для чека возврата",
+    "deliveryPrint": "Принтеры для чека доставки",
+    "summaryPrint": "Принтеры для сводного чека",
+    "selectPrinters": "Выберите принтеры…",
+    "saving": "Сохранение…",
+    "save": "Сохранить настройки принтеров",
+    "saveDescription": "Сохранить принтеры",
+    "loadFailed": "Не удалось загрузить настройки принтеров",
+    "loginRequired": "Войдите в систему для сохранения настроек принтеров.",
+    "saved": "Настройки принтеров сохранены",
+    "saveFailed": "Не удалось сохранить настройки принтеров"
+  },
+  "printOptions": {
+    "title": "Параметры печати",
+    "description": "Задайте количество физических копий для каждого типа печати и сколько раз можно печатать предварительные или итоговые счета на заказ до утверждения менеджером.",
+    "copiesTitle": "Копии по типу печати",
+    "maxAttemptsTitle": "Макс. попыток печати на заказ",
+    "unlimitedHint": "Установите макс. попытки в 0 для безлимита. При достижении лимита требуется менеджер с правом Превысить лимит печати.",
+    "copies": {
+      "temp": "Копии предварительного счёта",
+      "final": "Копии итогового счёта",
+      "refund": "Копии возврата",
+      "kitchen": "Копии кухни / KOT",
+      "delivery": "Копии доставки",
+      "summary": "Копии сводки"
+    },
+    "maxAttempts": {
+      "temp": "Макс. печати предварительного счёта",
+      "final": "Макс. печати итогового счёта"
+    },
+    "updated": "Параметры печати обновлены",
+    "saveDescription": "Сохранить параметры печати"
+  },
+  "menus": {
+    "title": "Настройки меню",
+    "activateMenus": "Активировать меню",
+    "selectMenus": "Выберите меню…",
+    "loading": "Загрузка настроек меню…",
+    "saving": "Сохранение…",
+    "save": "Сохранить настройки меню",
+    "saveDescription": "Сохранить меню",
+    "loadFailed": "Не удалось загрузить настройки меню",
+    "loginRequired": "Войдите в систему для сохранения настроек меню.",
+    "saved": "Настройки меню сохранены",
+    "saveFailed": "Не удалось сохранить настройки меню"
+  },
+  "tableSelection": {
+    "title": "Скрыть выбор стола в меню",
+    "description": "Пропустить выбор стола и открыть меню напрямую. Применяется только к этому устройству. Подходит для заказов на вынос"
+  },
+  "autoCheckClose": {
+    "title": "Автозакрытие чеков",
+    "description": "Автоматически закрывать открытые чеки в конце цикла закрытия. Заказы на доставку исключаются. За 1 минуту до закрытия появляется предупреждение.",
+    "printOnClose": "Печатать финальный счёт при закрытии",
+    "paymentType": "Тип оплаты",
+    "paymentTypeRequired": "Тип оплаты обязателен при включённом автозакрытии",
+    "paymentTypeRequiredField": "Тип оплаты обязателен",
+    "updated": "Настройки автозакрытия чеков обновлены",
+    "saveDescription": "Сохранить настройки автозакрытия чеков"
+  },
+  "closingCycle": {
+    "title": "Цикл закрытия",
+    "description": "Настройте время начала и окончания цикла. Время окончания может быть на следующий день (например: 06:00 — 02:00).",
+    "startTime": "Время начала",
+    "endTime": "Время окончания",
+    "updated": "Настройки цикла закрытия обновлены",
+    "saveDescription": "Сохранить настройки цикла закрытия"
+  },
+  "showInclusivePrices": {
+    "title": "Показывать цены с налогом",
+    "description": "При включении суммы позиций на экране оплаты, в чеках и в отчётах по позициям показывают цену с налогом (брутто) для блюд меню с inclusive-налогом. Строка Товары/промежуточный итог остаётся без налога, налог показывается отдельно, итоговая сумма не меняется. Позиции с exclusive-налогом не затрагиваются. Это только отображение и не меняет хранение цен или расчёт налога.",
+    "updated": "Настройки отображения цен с налогом обновлены",
+    "saveDescription": "Сохранить настройки отображения цен с налогом"
+  },
+  "currencySymbol": {
+    "title": "Символ валюты",
+    "description": "Управляет отображением символа валюты рядом с суммами в приложении и на печатных чеках. При отключении показываются только числа (например, 1 250 вместо Rs 1 250). Это только отображение и не меняет сохранённые значения.",
+    "showInUi": "Показывать на экране",
+    "showOnReceipts": "Показывать на чеках",
+    "updated": "Настройки символа валюты обновлены",
+    "saveDescription": "Сохранить настройки символа валюты"
+  },
+  "translateReceipts": {
+    "title": "Переводить чеки",
+    "description": "При включении системные подписи на печатных чеках (заголовки, счёт, стол, налог, итого, кухонные тикеты и сводка) используют выбранный язык этого устройства. Пользовательский текст колонтитулов из настроек печати не переводится.",
+    "updated": "Настройки перевода чеков обновлены",
+    "saveDescription": "Сохранить настройки перевода чеков"
+  },
+  "visibilityConfig": {
+    "title": "Настройка видимости позиций",
+    "description": "Обновите настройки этого устройства, чтобы выбрать, какие столбцы позиций показывать или скрывать. Применяется только к этому устройству.",
+    "menu": "Меню",
+    "enableDishSearch": "Включить поиск блюда по номеру в меню",
+    "showDishNumber": "Показывать номера блюд на плитках меню",
+    "dishSearchType": "Режим поиска блюд",
+    "dishSearchTypeNumber": "Только номер",
+    "dishSearchTypeBoth": "Название и номер",
+    "cart": "Корзина",
+    "showTotalsInCart": "Показывать итоги по позициям в корзине",
+    "orders": "Заказы",
+    "showTotalInOrderCard": "Показывать итоги по позициям в карточке заказа",
+    "showGroupsInOrderCard": "Показывать группы позиций в карточке заказа",
+    "showQuantityInOrderCard": "Показывать количество позиций в карточке заказа",
+    "showPriceInOrderCard": "Показывать цену позиций в карточке заказа",
+    "showModifiersInOrderCard": "Показывать модификаторы позиций в карточке заказа",
+    "showModifierPriceInOrderCard": "Показывать цену модификаторов в карточке заказа",
+    "showTotalInPaymentCard": "Показывать итоги по позициям в блоке оплаты"
+  },
+  "inventory": {
+    "title": "Inventory",
+    "description": "Ledger cutover and optional advanced tracking. Keep batch/expiry off unless you need them.",
+    "ledgerEnabled": "Use inventory ledger (single source of truth)",
+    "ledgerHint": "Enable only after running the ledger backfill and confirming reconciliation.",
+    "costingMethod": "Costing method",
+    "costing": {
+      "average": "Weighted Average",
+      "fifo": "FIFO",
+      "fefo": "FEFO"
+    },
+    "enableBatchTracking": "Enable batch tracking",
+    "enableExpiryTracking": "Enable expiry tracking",
+    "enableManufacturingDate": "Enable manufacturing dates",
+    "requireBatchSelection": "Require batch selection on issues",
+    "updated": "Inventory settings updated",
+    "save": "Save",
+    "saveDescription": "Save inventory settings",
+    "landedCostsSection": "Purchase cost allocation",
+    "enableLandedCosts": "Enable landed costs (shipping, freight, etc.)",
+    "enablePurchaseDiscounts": "Enable purchase discounts in inventory cost",
+    "enablePurchaseTaxes": "Enable purchase taxes in inventory cost",
+    "defaultAllocationMethod": "Default allocation method",
+    "allocation": {
+      "by_value": "By value",
+      "by_quantity": "By quantity",
+      "equal": "Equal"
+    },
+    "defaultPurchaseTaxBehavior": "Default purchase tax behavior",
+    "defaultPurchaseTaxBehaviorHint": "Non-recoverable tax is capitalized into inventory. Recoverable tax is ignored for valuation.",
+    "taxBehavior": {
+      "non_recoverable": "Non-recoverable (capitalize)",
+      "recoverable": "Recoverable (ignore for inventory)"
+    }
+  },
+  "whatsNew": {
+    "title": "Что нового",
+    "description": "Просмотрите заметки о выпуске и недавние обновления этого приложения.",
+    "open": "Открыть «Что нового»",
+    "dismiss": "Понятно",
+    "dialogTitle": "Что нового",
+    "previousReleases": "Предыдущие обновления",
+    "dateLabel": "Обновлено {{date}}"
+  },
+  "sessionSecurity": {
+    "title": "Безопасность сеанса",
+    "description": "Автоматически блокировать или выходить из системы после периода бездействия. Выберите одно действие.",
+    "idleMinutes": "Минуты бездействия (напр. 0,1 ≈ 6 секунд)",
+    "action": "Действие",
+    "actionLock": "Блокировка",
+    "actionLogout": "Выход",
+    "updated": "Настройки безопасности сеанса обновлены",
+    "saveDescription": "Сохранить настройки безопасности сеанса",
+    "loginRequired": "Необходимо войти, чтобы сохранить настройки безопасности сеанса"
+  },
+  "autoClockOut": {
+    "title": "Автоматический уход",
+    "description": "Автоматически отмечать уход в конце смены и/или в фиксированное время суток. Предпочитает запланированную смену, иначе назначенную. Применяется ко всем пользователям.",
+    "onShiftEnd": "Отмечать уход в конце смены",
+    "onDefinedTime": "Отмечать уход в заданное время",
+    "definedTime": "Время ухода",
+    "triggerRequired": "Включите конец смены и/или заданное время при включённом авто-уходе",
+    "updated": "Настройки автоматического ухода обновлены",
+    "saveDescription": "Сохранить настройки автоматического ухода"
+  },
+  "numberPolicy": {
+    "title": "Номера счетов",
+    "description": "Выберите, как номера счетов POS создаются, сбрасываются и форматируются. Целое число остаётся безопасным для фискала; строка отображения фиксируется при выдаче. После сохранения синхронизируйте все кассы.",
+    "preset": "Пресет",
+    "mintLabel": "Выдача",
+    "resetLabel": "Сброс",
+    "scopeLabel": "Область",
+    "pendingModeLabel": "Временная метка",
+    "template": "Шаблон",
+    "prefix": "Префикс",
+    "suffix": "Суффикс",
+    "branchCode": "Код филиала",
+    "terminalCode": "Код этого терминала",
+    "startAt": "Начать с",
+    "pad": "Нули",
+    "pendingMin": "Мин. символов временно",
+    "pendingMax": "Макс. символов временно",
+    "preview": "Просмотр",
+    "gapWarning": "Этот пресет может создать пропуски в ресторане и небезопасен для фискальных органов, требующих непрерывную последовательность.",
+    "acknowledgeGaps": "Я понимаю, что могут появиться пропуски в номерах",
+    "ackRequired": "Подтвердите предупреждение перед сохранением",
+    "updated": "Политика номеров счетов обновлена",
+    "saveDescription": "Сохранить политику номеров счетов",
+    "presets": {
+      "date_reset": "Date reset (recommended)",
+      "global": "Global sequential",
+      "period": "Period reset (year/month)",
+      "branch": "Branch sequential",
+      "terminal": "Terminal sequential",
+      "prefix": "Prefix / suffix",
+      "composite": "Composite",
+      "pool": "Range / pool",
+      "hybrid": "Hybrid online + offline pool",
+      "fiscal_plus_posr": "Fiscal + POSR display",
+      "provider_defined": "Provider-defined (store only)"
+    },
+    "mint": {
+      "gateway": "Gateway (shared)",
+      "terminal": "Terminal pool",
+      "hybrid": "Hybrid"
+    },
+    "reset": {
+      "never": "Never",
+      "day": "Each day",
+      "month": "Each month",
+      "year": "Each year"
+    },
+    "scope": {
+      "restaurant": "Restaurant",
+      "branch": "Branch",
+      "terminal": "Terminal"
+    },
+    "pendingMode": {
+      "random": "Random code",
+      "blank": "Blank until sync"
+    },
+    "help": {
+      "date_reset": "Pros: restaurant-wide 1,2,3… each day; fiscal-safe. Cons: offline checks show a temporary code until sync.",
+      "global": "Pros: simple forever sequence (1001, 1002…). Cons: never resets; numbers grow forever.",
+      "period": "Pros: yearly/monthly documents look tidy. Cons: pick month vs year carefully.",
+      "branch": "Pros: LHR-001 style labels. Cons: no multi-branch org yet — one configured branch code per restaurant.",
+      "terminal": "Pros: each till has its own sequence. Cons: gaps across the restaurant; fiscal-unsafe.",
+      "prefix": "Pros: INV-001 style formatting on any mint/reset. Cons: cosmetic only; fiscal still uses the integer.",
+      "composite": "Pros: LHR-T02-2026-00125 from tokens. Cons: longer labels; fiscal still uses the integer.",
+      "pool": "Pros: works fully offline with reserved ints. Cons: the 200-block jump problem; fiscal-unsafe.",
+      "hybrid": "Pros: offline creates still get ints. Cons: leftover reserved numbers become holes after reconnect.",
+      "fiscal_plus_posr": "Pros: POS display plus authority fiscal number. Cons: two numbers on a receipt is an evasion risk — show fiscal when present.",
+      "provider_defined": "Pros: POSR stores what FBR/PRA return. Cons: not a POSR minter — use with fiscal integrations."
+    }
+  }
+}
